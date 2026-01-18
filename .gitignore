@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+Subject/
+*.pdf
+runpod/
+extract_data.py
+extract_data_v2.py
+dedupe_mcq.py
+dedupe_mcq_v2.py
+sample_page.png
+test_r.pdf
+test2_r.pdf
+test_r_duplicate_report.txt
+test2_r_duplicate_report.txt
+RNAV_deduped_1.pdf
+DEPLOYMENT_GUIDE.md

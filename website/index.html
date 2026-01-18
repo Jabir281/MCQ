@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviation MCQ Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- Home Page -->
+        <div id="home-page" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>✈️ Aviation MCQ Test</h1>
+                    <p class="subtitle">Practice for your ATPL/CPL exams with our comprehensive question bank</p>
+                    <div class="stats" id="home-stats"></div>
+                    <button class="btn btn-primary btn-large" onclick="showSubjects()">
+                        Get Started
+                        <span class="arrow">→</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Subject Selection Page -->
+        <div id="subject-page" class="page">
+            <div class="container">
+                <button class="btn-back" onclick="goHome()">← Back</button>
+                <h2>Select a Subject</h2>
+                <p class="page-subtitle">Choose a subject to start your practice test</p>
+                <div class="subject-grid" id="subject-grid">
+                    <!-- Subjects will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Page -->
+        <div id="quiz-page" class="page">
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <button class="btn-back" onclick="confirmEndExam()">← End Exam</button>
+                    <div class="quiz-info">
+                        <span id="current-subject"></span>
+                        <span class="separator">|</span>
+                        <span id="question-counter">Question 1 of 50</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-number" id="question-number">Question 1</div>
+                    <div class="question-text" id="question-text"></div>
+                    
+                    <div class="options-container" id="options-container">
+                        <!-- Options will be loaded here -->
+                    </div>
+                </div>
+
+                <div class="quiz-navigation">
+                    <button class="btn btn-secondary" id="prev-btn" onclick="prevQuestion()">
+                        ← Previous
+                    </button>
+                    <button class="btn btn-primary" id="next-btn" onclick="nextQuestion()">
+                        Next →
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Page -->
+        <div id="results-page" class="page">
+            <div class="container results-container">
+                <div class="results-card">
+                    <div class="results-icon" id="results-icon">🎉</div>
+                    <h2>Exam Complete!</h2>
+                    <div class="results-subject" id="results-subject"></div>
+                    
+                    <div class="score-display">
+                        <div class="score-circle" id="score-circle">
+                            <span class="score-value" id="score-value">0</span>
+                            <span class="score-label">%</span>
+                        </div>
+                    </div>
+
+                    <div class="results-stats">
+                        <div class="stat-item correct">
+                            <span class="stat-icon">✓</span>
+                            <span class="stat-value" id="correct-count">0</span>
+                            <span class="stat-label">Correct</span>
+                        </div>
+                        <div class="stat-item wrong">
+                            <span class="stat-icon">✗</span>
+                            <span class="stat-value" id="wrong-count">0</span>
+                            <span class="stat-label">Wrong</span>
+                        </div>
+                        <div class="stat-item skipped">
+                            <span class="stat-icon">−</span>
+                            <span class="stat-value" id="skipped-count">0</span>
+                            <span class="stat-label">Skipped</span>
+                        </div>
+                    </div>
+
+                    <div class="results-actions">
+                        <button class="btn btn-secondary" onclick="reviewAnswers()">
+                            Review Answers
+                        </button>
+                        <button class="btn btn-primary" onclick="retakeExam()">
+                            Retake Exam
+                        </button>
+                        <button class="btn btn-outline" onclick="showSubjects()">
+                            Choose Another Subject
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Review Page -->
+        <div id="review-page" class="page">
+            <div class="container">
+                <div class="review-header">
+                    <button class="btn-back" onclick="showResults()">← Back to Results</button>
+                    <h2>Answer Review</h2>
+                </div>
+                <div class="review-list" id="review-list">
+                    <!-- Review items will be loaded here -->
+                </div>
+                <div class="review-actions">
+                    <button class="btn btn-primary" onclick="showResults()">Back to Results</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal">
+            <h3>End Exam?</h3>
+            <p>Are you sure you want to end the exam? Your progress will be saved and results will be shown.</p>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" onclick="closeModal()">Continue Exam</button>
+                <button class="btn btn-danger" onclick="endExam()">End Exam</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

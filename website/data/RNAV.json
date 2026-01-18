@@ -1,0 +1,4186 @@
+[
+  {
+    "question": "062 PT2 062.03 © Tota. Con @ & During line-up on the runway for departure, with thunders louds in the vicinity, the Weather Radar should be set up with,",
+    "options": [
+      "to minimum to ensure that all possible returns are dis",
+      "should be switched OFF to only have er echos on the",
+      "\"WX+T\" mode should ated to de",
+      "<> Results"
+    ],
+    "correct": 0,
+    "id": 1
+  },
+  {
+    "question": "062 PT2 062.03 © Tota. Con @ &",
+    "options": [
+      "6 (Multiple Choice)",
+      "n ATS contro",
+      "mance supply information for optimum altitude and s",
+      "<> Results"
+    ],
+    "correct": 0,
+    "id": 2
+  },
+  {
+    "question": "062 PT2.062.03 8 (Mutiple Choice) The term 'Pu uurrence Freque! number of",
+    "options": [
+      "rati",
+      "(PRFY'",
+      "Ooms @ &",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 3
+  },
+  {
+    "question": "Ooms @ & With regard to Airborne Weather Radar (AWR), which of the following statements is correct?",
+    "options": [
+      "1. Tilt-function is used to detect precipitation at different levels ahead of the aircraft.",
+      "2. MAP mode changes the shape of the radar beam and orientation down toward the ground.",
+      "1 is correct, 2 is correct.",
+      "1 is incorrect, 2 is incorrect"
+    ],
+    "correct": 0,
+    "id": 4
+  },
+  {
+    "question": "062 PT2 062.03 © Tota. Con @ & What can be adjusted when using the \"ga ne Weather Radar (AWA)?",
+    "options": [
+      "h the optimum",
+      "rtain turb",
+      "<> Results"
+    ],
+    "correct": 0,
+    "id": 5
+  },
+  {
+    "question": "Ooms @ & Aweather radar, set to the 100 NM scale, shows a squall between 40 NM and 50 NM What happens when the scale is set to 50 NM?",
+    "options": [
+      "The return on the radar screen should decrease in area but does not change the position on",
+      "the screen",
+      "The return on the radar screen should decrease in area and move to the top of the screen",
+      "The return on the radar screen should increase in area and move to the bottom of the screen"
+    ],
+    "correct": 0,
+    "id": 6
+  },
+  {
+    "question": "Ooms @ & ‘The airborne transponder can provide coded reply signals in response to interrogation signals from: 1. aircraft equipped with TCAS",
+    "options": [
+      "2. primary ground radar",
+      "3, ground secondary surveillance radar",
+      "4, aircraft equipped with a transponder",
+      "2and3"
+    ],
+    "correct": 2,
+    "id": 7
+  },
+  {
+    "question": "oon @ & ‘= Question 15 (Muitiple Choice) When cruising at flight level close to the tropopause and adjusting Weather Radar for detecting Thunderstorms, best practice would recommend to. increase tit angle (ttt UP) due \"look\" into altitude with ice crystals at high levels instead of",
+    "options": [
+      "supercooled water for better reflectivity.",
+      "increase tilt angle (tilt UP) due reduce cluttered signals from ground surface.",
+      "reduce tilt angle (tt DOWN) due \"look\" into altitude with supercooled water instead of ice",
+      "rystals at high levels for better reflectivity."
+    ],
+    "correct": 2,
+    "id": 8
+  },
+  {
+    "question": "062 PT2 062.03 © Tota. Con @ & What is an advantage of a a primary radar s",
+    "options": [
+      "ithin ran",
+      "ound antenna transmits no Inger of fal",
+      "irborne transponder",
+      "<> Results"
+    ],
+    "correct": 0,
+    "id": 9
+  },
+  {
+    "question": "Ooms @ & Airborne data that can be used by modern weather radar systems to detect Wind Shear (WS) include: Doppler-shift in frequency from aerosol particles",
+    "options": [
+      "2. Doppler-shitt in frequency from precipitation echos",
+      "8. Pulse-flattening in precipitation echos.",
+      "4, Comparison of inertial data and air data",
+      "5, Use of different wavelengths"
+    ],
+    "correct": 3,
+    "id": 10
+  },
+  {
+    "question": "062 PT2.062.03 om se the Airborne Weather Radar (AWR) indicates an area with strong precipit",
+    "options": [
+      "out the situation behind that ar",
+      "ition: e checke ing the range accordingly.",
+      "Ooms @ &",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 11
+  },
+  {
+    "question": "062 PT2.062.03 om Relating to an Airborne Weather Radar that has a colour cathode dis; rity of rain and turbulence increases, the colour chan:",
+    "options": [
+      "0 orange to blue and magenta",
+      "green to red to blue and magenta.",
+      "Ooms @ &",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 12
+  },
+  {
+    "question": "062 PT2.062.03 om The Special Pc transmitte transmitt umed that re",
+    "options": [
+      "which ar es of the interro",
+      "smitted by the transponder when the pilo ne IDENT+",
+      "Ooms @ &",
+      "Results"
+    ],
+    "correct": 1,
+    "id": 13
+  },
+  {
+    "question": "062 PT2 062.03 © Tota. Con @ & radar principles onboard an aircraft are mainly used by al",
+    "options": [
+      "uring Equipment (OME)",
+      "ioning System (GPS)",
+      "Surveillance Radar (SSR)",
+      "<> Results"
+    ],
+    "correct": 0,
+    "id": 14
+  },
+  {
+    "question": "062 PT2.062.03 == ‘The prime factor in determining the maximum unambig 0 of th ight of the tral ground",
+    "options": [
+      "ower output,",
+      "of a primary radar",
+      "Ooms @ &",
+      "Results"
+    ],
+    "correct": 1,
+    "id": 15
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & uestion 1 (Multiple Choice) Modern ATC surveillance systems required as minimum information to be provided to the controller on the surveillance system display: . Terrain overlay . Aircraft position . Aircraft speed and vertical speed . Any map information needed to provide the surveillance service . Aircraft identification (if available) . Aircraft flight level",
+    "options": [
+      "1,2, 4, and6",
+      "2,3,4and5",
+      "1,2,4, 5 and6",
+      "Se > Results"
+    ],
+    "correct": 1,
+    "id": 16
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & uestion 3 (Multiple Choice) With regard to Secondary Surveillance Radar (SSR), which of the following statements is correct?",
+    "options": [
+      "1. SSR mode S is NOT compatible with SSR modes A and C.",
+      "2. SSR mode S provides information for Automatic Dependent Surveillance-Broadcast (ADS-B)",
+      "1 is correct, 2 is corre",
+      "1 is incorrect, 2 is incorrect."
+    ],
+    "correct": 0,
+    "id": 17
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & Juestion 4 (Multiple Choice) Wind Shear (WS) can be detected by modern aircraft's Airborne Weather Radar (AWR) by using...",
+    "options": [
+      "oppler-shift in frequency from reflected precipitation echos to indicate vertical motion.",
+      "oppler-shift in frequency from dust or aerosole particles to indicate vertical motion.",
+      "oppler-shift in frequency from dust or aerosole particles to indicate horizontal motion.",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 18
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & Heavy turbulence can be expected",
+    "options": [
+      "t about halfway between two thunderstorm cells.",
+      "irectly in the core of a thunderstorm cell.",
+      "in the area of heaviest precipitation, normally at the core of the thunderstorm cell",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 19
+  },
+  {
+    "question": "062 PT2 062.03 (© Tea) Oos219 @ & uestion 7 (Multiple Choice) Primary radar principles onboard an aircraft are mainly used by a(n):",
+    "options": [
+      "Global Positioning System (GPS)",
+      "istance Measuring Equipment (DME)",
+      "Secondary Surveillance Radar (SSR)",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 20
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & uestion 9 (Multiple Choice) Which of the following are airborne weather radar antenna stabilisation axes?",
+    "options": [
+      "1. Yaw axis",
+      "2. Pitch axis",
+      "3. Roll axis",
+      "1and3"
+    ],
+    "correct": 1,
+    "id": 21
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & Juestion 10 (Multiple Choice) Which of the following statements about interrogation modes is correct?",
+    "options": [
+      "Mode S Only all call triggers transponder replies of all mode A/C/S transponders",
+      "Mode S Selective triggers replies of all mode S transponders",
+      "Intermode A/C/S all call and Intermode A/C only all call, differ in the pulse spacing",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 22
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & In relation to primary radar, pulse repetition frequency means the...",
+    "options": [
+      "time between ea insmission of pulses.",
+      "number of revolutions performed by the radar antenna per minute.",
+      "radar frequency used.",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 23
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & uestion 12 (Multiple Choice) An airborne weather radar is usually based on the use of...",
+    "options": [
+      "secondary radar in the UHF band.",
+      "primary radar in the UHF band.",
+      "secondary radar in the SHF band.",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 24
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & Relating to an Airborne Weather Radar that has a colour cathode display, when the severity of rain and turbulence increases, the colour changes from...",
+    "options": [
+      "green to red to blue and magenta.",
+      "yellow to orange to blue and magenta.",
+      "yellow to orange to red and magenta.",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 25
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & uestion 17 (Multiple Choice) Information available to an air traffic controller's screen using SSR may include: 1. Pressure altitude / Flight level (FL) 2. Flight number or aircraft registration number 8. Ground speed (GS)",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "Se <> Results"
+    ],
+    "correct": 1,
+    "id": 26
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & Juestion 18 (Multiple Choice) When the airborne weather radar system is equipped with an auto-tilt function, that means that..",
+    "options": [
+      "the radar antenna tilt is automatically adjusted to tilt fully down during taxi.",
+      "the radar antenna beam width is automatically adjusted with changes of attitude.",
+      "the radar antenna beam width is automatically adjusted during turns.",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 27
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & uestion 19 (Multiple Choice) The \"WX+T\" mode on an Airborne Weather Radar (AWR) is activated to detect...",
+    "options": [
+      "lear air turbulence (CAT) that is not accompanied by precipitation",
+      "ulence by Doppler shift of the signal reflected by precipitation.",
+      "owndraft areas within clouds by detecting vertical motion of precipitation.",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 28
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & Juestion 22 (Multiple Choice) Aircraft that are NOT equipped with an operating transponder in flight.",
+    "options": [
+      "n be detected using Secondary Surveillance Radar (SSR).",
+      "n not be detected by civil types of RADAR.",
+      "n only be detected when flying below a critical altitude.",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 29
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & Relating to airborne weather radar systems, why are wavelengths of approximately 3 cm usually used?",
+    "options": [
+      "To detect snow and small water droplets",
+      "To transmit at a higher PRF for increased range",
+      "To detect large cloud formations",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 30
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & Which of the following alternatives determines the theoretical maximum range for an AWR?",
+    "options": [
+      "rrier wave frequency",
+      "Pulse length",
+      "eam width",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 31
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & Juestion 25 (Multiple Choice) When Mode C is selected on the aircraft's SSR transponder, the...",
+    "options": [
+      "height of the aircraft based on subscale setting is transmitted",
+      "height of the aircraft based on QFE is transmitted.",
+      "ltitude based on local QNH is transmitted.",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 32
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & Juestion 27 (Multiple Choice) An Airborne Weather Radar (AWR) usually does NOT detect",
+    "options": [
+      "wet snow.",
+      "moderate precipitation.",
+      "turbulence in cloud associated with precipitation.",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 33
+  },
+  {
+    "question": "062 PT2 062.03 © Tester.) Cos2199 @ & How does a primary radar work?",
+    "options": [
+      "On the principle of phase comparison",
+      "On the principle of continuous wave transmission",
+      "On the principle of transponder interrogation",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 34
+  },
+  {
+    "question": "‘9:50AM Sat 13 Dec © 100% mm",
+    "options": [
+      "062 P72 062.03 fo Coss @",
+      "ed from aircraft",
+      "transmitte",
+      "Se > @ Resuits"
+    ],
+    "correct": 0,
+    "id": 35
+  },
+  {
+    "question": "062 P72 062.03 fo Coss @ When the top of a cloud lies at or slightly above the flight level, the tilt setting should b",
+    "options": [
+      "higher altituc",
+      "ed range decre",
+      "range inci",
+      "Se < & @ Resuits"
+    ],
+    "correct": 0,
+    "id": 36
+  },
+  {
+    "question": "062 P72 062.03 fo Coss @ it function of the Airborne er Radar (AWR), the vertical extend of a turbulence area",
+    "options": [
+      "the tilt \"DC",
+      "the width of the a hos/turbe",
+      "the flight level or altitu",
+      "Se < & Results"
+    ],
+    "correct": 0,
+    "id": 37
+  },
+  {
+    "question": "062 PT2 062.03 Cm) Ooss19 @ &",
+    "options": [
+      "The prime factor in determining the maximum unambiguous range of a primary radar is tr",
+      "output.",
+      "ght of the tra fe the ground",
+      "Se < & @ Resuits"
+    ],
+    "correct": 0,
+    "id": 38
+  },
+  {
+    "question": "Which data can be determined by ATC Secondary Surveillance Radar (SSR) that are NOT available with Primary Surveillance Radar (PSR)?",
+    "options": [
+      "Target range",
+      "Target bearing",
+      "ircratt identification codes",
+      "ircratt altitude"
+    ],
+    "correct": 3,
+    "id": 39
+  },
+  {
+    "question": "062 PT2 062.03 Cm) Ooss19 @ & en using the AWR in the mapping mode in polar areas, the risk increa",
+    "options": [
+      "se of ice reflection.",
+      "the ter of th a super-refraction.",
+      "lar light).",
+      "Se < & @ Resuits"
+    ],
+    "correct": 1,
+    "id": 40
+  },
+  {
+    "question": "062 P72 062.03 fo Coss @ = Question 21 (Multise Choice)",
+    "options": [
+      "@ information displayed on an ATC radar screen connected to only a primary radar system is.",
+      "n of the ai altitude.",
+      "1 of the",
+      "Se < & @ Resuits"
+    ],
+    "correct": 1,
+    "id": 41
+  },
+  {
+    "question": "062 P72 062.03 fo Coss @ During line: inity, the",
+    "options": [
+      "lear Air Turbu",
+      "to minimum to ensure that all pc",
+      "FF to only ha",
+      "Se < & Results"
+    ],
+    "correct": 0,
+    "id": 42
+  },
+  {
+    "question": "062 PT2 062.03, orm Which one of the following equipment operates on the interro",
+    "options": [
+      "erodrome Surface Movement Radar (ASMR)",
+      "irborne Weather Radar (AWR)",
+      "Global Positioning S) (GPs",
+      "oss @ &"
+    ],
+    "correct": 0,
+    "id": 43
+  },
+  {
+    "question": "062 PT2 062.03, orm = Question 29 (Multiple Choice) Jing the airborne weather radar is corre:",
+    "options": [
+      "jetects clear air turbulence behind a thunder storm",
+      "risation in «",
+      "ransmitter v",
+      "oss @ &"
+    ],
+    "correct": 2,
+    "id": 44
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels e 2 caeontnesh.peesy.com 062 72.06.03, ston 29 Muitile Choice) The tit of an Airborne Weather Radar be pointed (1) _ when searching for thunderstorms during high-level cruise fight, because wet hail and rain provide best reflectivity, and these are found mainly in the (2) __ levels of a thunderstorm, (3) _— the freezing level. (1) upwards, (2) lower, (8) below ® (1) downwards, (2) higher, (3) below (1) upwards, (2) higher, (3) above 9808880860860 - Safari Fle Edt View History Books dow Heb e  caeontnegh.peesy.com & 062 PT2.062.03 ton 26 Mtile Choice) Which statement relating to the stabilization of airborne weather radar antennae is correct?",
+    "options": [
+      "‘The pilot can choose the axes of stabilization with the system's stabilization selector switch",
+      "‘They are stabiized with respect to the pitch, roll, and yaw-axis",
+      "They are stabilized with respect to the yaw-axis, but not with respect to the pitch and roll axis",
+      "<e J"
+    ],
+    "correct": 0,
+    "id": 45
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels caeontnesh.peesy.com @ 062 72.06.03, ‘= Question 2 Multiple Choice) Information available to an air traffic controller's screen using SSR may include: 1. Pressure altitude / Fight level (FL) 2. Flight number or aircraft registration number 3. Ground speed (GS) 1 and 2 only 2 and 3 only 1 only @ caeontneab.peesy.com 3.cm is considered to be an optimum wavelength for an airborne weather radar system because.",
+    "options": [
+      "static interference is reduced.",
+      "it enables the weather radar to detect clear air turbulence.",
+      "greater detail can be obtained at higher distant ranges for smaller water droplets.",
+      "3G08e608"
+    ],
+    "correct": 0,
+    "id": 46
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels e  caeontnesh.peesy.com @ 062 P72 062.03, = Quostin 22 Mutols Choice) Relating to a primary radar using pulse technique, what does the pulse repetition frequency determine?",
+    "options": [
+      "The target discrimination",
+      "The minimum range",
+      "‘The beam width",
+      "@ caeontneab.peesy.com"
+    ],
+    "correct": 0,
+    "id": 47
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels e  caeontnesh.peesy.com @ 062 72.06.03, ston 19 Multile Choice) ‘An airborne weather radar is usually based on the use of. secondary radar in the SHF band. secondary radar in the UHF band. primary radar in the UHF band. he <> 2G0SS80860880-2°09820 GQ & Safari Fle Edt View History Books dow Heb e  caeontnegh.peesy.com & 062 PT2.062.03 ton 17 tile Croce) The tit of an Airborne Weather Radar system (without auto tit) be changed to a (1)__ setting when des terrain, because otherwise the scanning range will be reduced and significant (2)__ may be displayed. (1) lower, (2) ground clutter (1) higher, (2) clear air turbulence (CAT)",
+    "options": [
+      "(1) lower, (2) clear air turbulence (GAT)",
+      "———]",
+      "<e i",
+      "20088808 220 200 &muse Ema!"
+    ],
+    "correct": 0,
+    "id": 48
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels e  caeontnesh.peesy.com @ 062 72.06.03, = uestion 16 Muto Choice) ‘The maximum number of SSR transponder codes in Mode A is: 1690 he <> = : 2808880869860 559829 200 amune .mEhmae Safari Fle Edt View History Books dow Heb e  caeontnegh.peesy.com & 062 PT2.062.03 ston 15 tile Croce) Relating to an Airborne Weather Radar that has a colour cathode display, when the severity of rain and turbulence increases, the colour changes from. yellow to orange to red and magenta.",
+    "options": [
+      "yellow to orange to blue and magenta.",
+      "green to red to blue and magenta,",
+      "<e /",
+      "20088808 220 200 &muse Ema!"
+    ],
+    "correct": 0,
+    "id": 49
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels e  caeontnesh.peesy.com @ 062 P72 062.03, With regard to Airborne Weather Radar (AWR), which of the following statements is correct?",
+    "options": [
+      "1. AWR uses a flat plate antenna producing a pencil or conical shaped beam.",
+      "2. \"Tit\" has to be set horizontal or UP for ground mapping (MAP mode).",
+      "1 is incorrect, 2 is incorrect.",
+      "1 is correct, 2 is correct,"
+    ],
+    "correct": 0,
+    "id": 50
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels e  caeontnesh.peesy.com @ 062 P72 062.03, Aircraft that are NOT equipped with an operating transponder in fight: can only be detected when flying below a critical altitude. can not be detected by civil types of RADAR, can be detected using Secondary Surveillance Radar (SSR) @ caeontneab.peesy.com What can be adjusted when using the \"gain\" control button of an Airborne Weather Radar (AWR)?",
+    "options": [
+      "the range of colours used to indicate certain turbulence levels",
+      "‘The intensity of the display illumination",
+      "The power level of the transmitted energy is made dependent on the selected range",
+      "3G08e608"
+    ],
+    "correct": 0,
+    "id": 51
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels @ caeonineab.peesy.com @ 062 72.06.03, L2ston 9 (Multiple Caos) When Mode Cis selected on the aircraft's SSR transponder, the. altitude based on local QNH is transmitted, height of the aircraft based on subscale setting is transmitted, height of the aircraft based on QFE is transmitted. <> - ~ 2808880869860 559829 200 amune .mEhmae sete Fe eat @ caeontneab.peesy.com 062 PT2.062.03 weston 8 (ste Choice) ‘The principle of pulse technique is used by: 1. Airborne Weather Radar 2. Aerodrome Surface Movement Radar 8. Aerodrome Surveillance (approach) Radar 4, Secondary Surveillance Radar (SSR)",
+    "options": [
+      "2 and 3 only",
+      "2, 3.and 4 only",
+      "1, 2and 4 only",
+      "3G08e608"
+    ],
+    "correct": 0,
+    "id": 52
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels e  caeontnesh.peesy.com @ 062 72.06.03, The \"WX+T\" mode on an Airborne Weather Radar (AWR) is activated to detect, Clear air turbulence (CAT) that is not accompanied by precipitation. Downdraft areas within clouds by detecting vertical motion of precipitation, Weather Radar (WX) and activate the *Auto-Tilt* function. Su <> — : 200888086 229826 C00 @muas hea! Safari Fle Edt View History Books dow Heb e 2 caeontnegh.peesy.com 062 P72 062.03, weston 6 (ste Croke) What type of radar allows indication of the shape, and sometimes also the type of aircraft producing the ‘Aerodrome Surveillance Radar",
+    "options": [
+      "Secondary Surveillance Radar",
+      "irborne Weather Radar",
+      "<>",
+      "3G08e608 220 ©200 &meanse . Ewa?"
+    ],
+    "correct": 0,
+    "id": 53
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels e 2 caeontnesh.peesy.com 062 72.06.03, What is an advantage of the Secondary Surveillance Radar (SSR) system compared to a primary radar system?",
+    "options": [
+      "It provides a higher level of accuracy for bearings and distances",
+      "No special equipment is needed for the use of a SSR,",
+      "Side lobes do not occur during transmission",
+      "3G08e608"
+    ],
+    "correct": 1,
+    "id": 54
+  },
+  {
+    "question": "6 sefari Fle Edit View History Bookmarks Window Hels e  caeontnesh.peesy.com @ 062 72.06.03, Which of the following statements regarding the selections on the transponder control panel is true?",
+    "options": [
+      "When ON is selected a reply in the modes A, C and S can be transmitted",
+      "‘The correct ICAO 24 bits aircraft address code must be entered on the control panel",
+      "With the selector button the digits of the squawk can be selected using the decimal symbols 0 through 9",
+      "he <>"
+    ],
+    "correct": 0,
+    "id": 55
+  },
+  {
+    "question": "062 PT2 062.03 = @ Tooter. Coss @ & uestion 6 (Mul an ATS the rai",
+    "options": [
+      "ted by ACAS (Airborne",
+      "on for of Ititud",
+      "n from the groun ather",
+      "hae <>? Results"
+    ],
+    "correct": 0,
+    "id": 56
+  },
+  {
+    "question": "062 PT2 062.03 = @ Tooter. Coss @ & uti stement relating to the stab",
+    "options": [
+      "@ the a) ion with the sy",
+      "with y ut not with r",
+      "to the pitc!",
+      "hae <>? Results"
+    ],
+    "correct": 1,
+    "id": 57
+  },
+  {
+    "question": "062 PT2 062.03 = @ Tooter. Coss @ &",
+    "options": [
+      "uestion 12 (Mat",
+      "ther r are t turbulence are indic",
+      "inere no colour is sho",
+      "hae <>? Results"
+    ],
+    "correct": 1,
+    "id": 58
+  },
+  {
+    "question": "062 PT2.062.03 The term 'Pulse Recut delay a numt ratio of p width, ' means the...",
+    "options": [
+      "o251 @ &",
+      "Results"
+    ],
+    "correct": 1,
+    "id": 59
+  },
+  {
+    "question": "062 PT2 062.03 = @ Tooter. Coss @ & mining the maximum unambiguous range of a prirr",
+    "options": [
+      "height of th itter at nd.",
+      "the par",
+      "fer output",
+      "hae <>? > fits"
+    ],
+    "correct": 1,
+    "id": 60
+  },
+  {
+    "question": "062 PT2 062.03 = @ Tooter. Coss @ & I, the tilt setting sho.",
+    "options": [
+      "the se",
+      "the aircraft cli",
+      "n the selected ran",
+      "hae <>? Results"
+    ],
+    "correct": 1,
+    "id": 61
+  },
+  {
+    "question": "062 PT2 062.03 = @ Tooter. Coss @ & from le (tilt UP) due \"",
+    "options": [
+      "ter for better refl",
+      "e tilt angle (tilt DOW e \"look led water instead of ice",
+      "high",
+      "he <> Results"
+    ],
+    "correct": 1,
+    "id": 62
+  },
+  {
+    "question": "062 PT2.062.03 om With regard to S 1g mode\" ident from airborne Co251 @ & is correct?",
+    "options": [
+      "ft identification.",
+      "Resuls"
+    ],
+    "correct": 1,
+    "id": 63
+  },
+  {
+    "question": "062 PT2.062.03 Quest An airborne one",
+    "options": [
+      "primary",
+      "in the UHF band,",
+      "o251 @ &",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 64
+  },
+  {
+    "question": "062 PT2 062.03, = @ Tooter. Co251 @ & Relating to an ther ra the main fa tection?",
+    "options": [
+      "nner's diameter",
+      "he < Results"
+    ],
+    "correct": 0,
+    "id": 65
+  },
+  {
+    "question": "062 PT2.062.03, © Tooter. Cosi @ &",
+    "options": [
+      "uestion 3 (Multiple C",
+      "ompare the r",
+      "X+T\" mode and us",
+      "vs | Se <> @ Results"
+    ],
+    "correct": 1,
+    "id": 66
+  },
+  {
+    "question": "Neeeeeeeeeee eee 062 PT2.062.03 a=: Cosi @ &",
+    "options": [
+      "15 (Multiple",
+      "ndary Surveilar",
+      "fed frequency",
+      "sys | Se <> @ Results"
+    ],
+    "correct": 0,
+    "id": 67
+  },
+  {
+    "question": "8 aaa... 0_—= 062 PT2.062.03, @ Teter. Cosi @ & garding th In th 0 ntrol p",
+    "options": [
+      "lector button the digits of the squawk can be selected using the decimal symbols 0 through 9",
+      "‘AO 24 bits aircraft address code must be entered on the panel",
+      "When ON is selected a reply in the modes A, S can be transmitted",
+      "sys | Be <> @ Results"
+    ],
+    "correct": 0,
+    "id": 68
+  },
+  {
+    "question": "uestion 7 (Mutiple Choies) When cruising at fight level close to the tropopause and adjusting Weather Radar for detecting Thunderstorms, best practice would recommend to...",
+    "options": [
+      "increase tilt angle (tilt UP) due reduce cluttered signals from ground surface.",
+      "increase tit angle (tit UP) due \"look\" into altitude with ice crystals at high levels instead of supercooled water for",
+      "etter reflectivity",
+      "reduce tilt angle (tit DOWN) due \"look\" into compensate for the curvature of the earth's surface at large distances."
+    ],
+    "correct": 0,
+    "id": 69
+  },
+  {
+    "question": "Lee eee eeeaaaaaaaaaaaaSaS.S.S.a.Q8Q ma 062 PT2.062.03 - @ Foster Cosi @ & stion 8 (Multiple Choice) at is the main fun",
+    "options": [
+      "t areas 0",
+      "letect area y cle",
+      "To detect pr such as hail, sno",
+      "<> @ Results"
+    ],
+    "correct": 0,
+    "id": 70
+  },
+  {
+    "question": "062 PT2 062.03 ora Cosi @ &",
+    "options": [
+      "jon 12 (Multiple Choice)",
+      "(CAT) th",
+      "within clou",
+      "hae <> @ Results"
+    ],
+    "correct": 1,
+    "id": 71
+  },
+  {
+    "question": "062 PT2 062.03 © Tobe. Co @ & = Question 13 (Mutiple Choice)",
+    "options": [
+      "In relation to priman",
+      "numbe",
+      "r fr",
+      "<a <> GB Resuits"
+    ],
+    "correct": 1,
+    "id": 72
+  },
+  {
+    "question": "062 PT2 062.03  @ Teoma. Cos @ & imum unambigu",
+    "options": [
+      "height of the tra r und.",
+      "power output.",
+      "size of the parabolic",
+      "<< <> Results"
+    ],
+    "correct": 1,
+    "id": 73
+  },
+  {
+    "question": "S5BAM Sat 13 Dec eee Fee 062 PT2 062.03 © Tota. Cos @ & Which statement relating to the stabilization of airborne weather rac",
+    "options": [
+      "t to the pitch, roll, and ya",
+      "ut not with respect to the pitch",
+      "'s stabilization selector",
+      "< Resuts"
+    ],
+    "correct": 0,
+    "id": 74
+  },
+  {
+    "question": "62 PT2062 Oo @ & smpared to a primary radar s",
+    "options": [
+      ">ssiblity of getting speed information of aircraft within range",
+      "toline of sight",
+      "Ind antenna 5, thus red ies tro",
+      "transponder"
+    ],
+    "correct": 0,
+    "id": 75
+  },
+  {
+    "question": "62 P2062, Relating to an airborne weather radar cls ‘areas where no colour is shown, ange",
+    "options": [
+      "s of greatest turbulenct",
+      "re indicat",
+      "rece",
+      "os @ &"
+    ],
+    "correct": 0,
+    "id": 76
+  },
+  {
+    "question": "62 P2062, iat happens if an operator increases the range on a radar-display Both the PRF and the pulse length decreas",
+    "options": [
+      "The PRF increases and the pulse length decrease:",
+      "jth the PRF and the pulse length increase",
+      "rece",
+      "os @ &"
+    ],
+    "correct": 0,
+    "id": 77
+  },
+  {
+    "question": "62 P2062, In case the Airborne Weather Radar (AWR) indicates an area with strong precipitat ut the situation behind th Inary case, the pr inue behind the it he weather condi hecked by adjusting",
+    "options": [
+      "here is no indication on the AWA cisplay, the cc",
+      "1 ahead,",
+      "rece",
+      "os @ &"
+    ],
+    "correct": 0,
+    "id": 78
+  },
+  {
+    "question": "62 P2062, In case the Airborne Weather Radar (AWR) indicates an area with strong precipitat ut the situation behind th Inary case, the pr inue behind the it",
+    "options": [
+      "he weather condi hecked by adjusting",
+      "here is no indication on the AWA cisplay, the cc",
+      "1 ahead,",
+      "os @ &"
+    ],
+    "correct": 0,
+    "id": 79
+  },
+  {
+    "question": "62 P2062, Coss @ & ion of the Airbome Wee Jar (AWR), the vertical extend of a turbulence area can be estimated",
+    "options": [
+      "from,",
+      "the colour of the echos and the tt ‘DOWN\" angle until the echos disappe",
+      "the width of th areas indicate intensities urbulence,",
+      "the fight level or altitude of the aircraft and the distance of the ec"
+    ],
+    "correct": 0,
+    "id": 80
+  },
+  {
+    "question": "62 P2062, The tit of an Airborne Weather Radar be pointed (1) st reflectivity, and these a higher, (3) below (1) upwards, (2) higher, (3) ab",
+    "options": [
+      "(1) upwards.",
+      "thund!",
+      "storm,",
+      "os @ &"
+    ],
+    "correct": 0,
+    "id": 81
+  },
+  {
+    "question": "62 P2062, During line-up on the rur 3 should in’ should with thunderstorms and stror minimum to ensure that all possib| ld be switched OFF ted to detected",
+    "options": [
+      "jear Air Turbulence bet",
+      "on the di",
+      "en the clouds.",
+      "os @ &"
+    ],
+    "correct": 0,
+    "id": 82
+  },
+  {
+    "question": "62 P2062, Relating to an Airborne Weather Radar th erity of rain and turbulence inc yollow to orange to blue and magenta to red and m",
+    "options": [
+      "> blue and m:",
+      "thode display,",
+      "nges from.",
+      "os @ &"
+    ],
+    "correct": 0,
+    "id": 83
+  },
+  {
+    "question": "62 P2062, performance sup conflicting traffic",
+    "options": [
+      "the currer",
+      "radar situation display should pr",
+      "vide information about",
+      "os @ &"
+    ],
+    "correct": 0,
+    "id": 84
+  },
+  {
+    "question": "4Search 10:15AM Sat 6 Dec oe FeusHe",
+    "options": [
+      "062 PT 062.02 — oun @ &",
+      "R in the frequency range 112",
+      "nge VOR with a higher than u",
+      "he < Results"
+    ],
+    "correct": 0,
+    "id": 85
+  },
+  {
+    "question": "@B cae Crew Traini 3 caeonlineglx.pelesys.com o@ = Question 28 (Multiple Choice) Which ILS marker is identified visually by an amber flashing lig",
+    "options": [
+      "eacon",
+      "Inner marker",
+      "uter marker",
+      "he <> Results"
+    ],
+    "correct": 0,
+    "id": 86
+  },
+  {
+    "question": "@B cae Crew Traini 3 caeonlineglx.pelesys.com o@ The integrity of a VOR system can be improved by usir",
+    "options": [
+      "several different frequencies for the same VOR.",
+      "several independent VOR receivers in the aircraft.",
+      "VOR test beacons at airfields and along airways.",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 87
+  },
+  {
+    "question": "062 PT1 062.01 © \"eatae.:) ©03239 @ & The directional change of an electromagnetic wave caused by a change in its spe:",
+    "options": [
+      "reflection.",
+      "iffraction.",
+      "rferer",
+      "he > @ Results"
+    ],
+    "correct": 1,
+    "id": 88
+  },
+  {
+    "question": "062 PT1 062.01 C= Radio we utilize ngle side k band, propagation path and range of fr VHF, direct w 108 to 117.975 M LF / MF, surface (ground) v , 190 to 1750 kHz",
+    "options": [
+      "UHF, sky wa\\ to 335 MHz.",
+      "with which frec",
+      "O03239 @ &",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 89
+  },
+  {
+    "question": "062 PT1 062.01 © \"eatae.:) ©03239 @ & = Question 3 (Multiple Choice)",
+    "options": [
+      "The type of antenna that may be used by an ADF receiver is a.",
+      "intenna.",
+      "ntenna.",
+      "he < Bw @ Results"
+    ],
+    "correct": 0,
+    "id": 90
+  },
+  {
+    "question": "062 PT1 062.01 What is the name of the pro Diffraction",
+    "options": [
+      "y which el",
+      "O03239 @ &",
+      "y is taken up by the atmospher",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 91
+  },
+  {
+    "question": "062 PT1 062.01 © \"eatae.:) ©03239 @ & = Question 5 (Multiple Choice) Relating to waves, \"phase\" or the “phi angle\", expressed in degrees",
+    "options": [
+      "eflection on a wave.",
+      "ngle of the modulation on av length.",
+      "of a modulation on a wavelength",
+      "he < Bw Results"
+    ],
+    "correct": 0,
+    "id": 92
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) sstion 6 (Multiple Choice) A DME station is located 1000 feet above MSL. The pilot of an aircraft 15 NM away from the station, in ISA conditio range of approximately: 18NM 15 NM",
+    "options": [
+      "13 NM",
+      "O03239 @ &",
+      "it FL370, will read a DME",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 93
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & sstion 7 (Multiple C",
+    "options": [
+      "n aircraft cE; I > ic variation is 10W.",
+      "VOR is located at 00°N, 0",
+      "The aircraft is situated on whi",
+      "he < Bw Results"
+    ],
+    "correct": 1,
+    "id": 94
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & You are on a heading of 090(M) and on radial 255 from a VOR station. When 19 st on your OBS, the deviation b:",
+    "options": [
+      "Full scale right deflection and a 'to' indication",
+      "Full scale right deflection and a ‘from’ indication",
+      "Full scale left deflection with a ‘to’ indication",
+      "he < Bw Results"
+    ],
+    "correct": 0,
+    "id": 95
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & AVOR is |",
+    "options": [
+      "n aircraft",
+      "The aircraft is on VOR radial",
+      "148",
+      "he < Bw Results"
+    ],
+    "correct": 2,
+    "id": 96
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & A Mic nding System (MLS) uses which method to indicate distance from the runway threshold?",
+    "options": [
+      "Measurement of the slant je from the",
+      "measuring the time interval.",
+      "Timing the interval between the transmission and reception of GPS eris data.",
+      "Timing the interval between the transmission and reception of primary radar pulses from the"
+    ],
+    "correct": 1,
+    "id": 97
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & The so-called night effect is cau: by...",
+    "options": [
+      "Reflection of the > W the aircraft's fu:",
+      "on in the ionosph",
+      "rkness.",
+      "he < Bw Results"
+    ],
+    "correct": 0,
+    "id": 98
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & ing ICAO Anne: ‘ate the VDF information precision referring to",
+    "options": [
+      "urate to a range within +",
+      "rate to a range within + 2°",
+      "ite to less than Class C",
+      "he < Bw Results"
+    ],
+    "correct": 1,
+    "id": 99
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & sstion 14 (Multiple Choice) A DME is located at MSL.",
+    "options": [
+      "n aircraft passing directly overhead the station at FL 360 will obtain a DME range of approxin",
+      "10 NM",
+      "ONM",
+      "he < Bw Results"
+    ],
+    "correct": 1,
+    "id": 100
+  },
+  {
+    "question": "062 PT1 062.02 When the glid pe in 2.5° above or below the above or below the .3° above or below the full deflection, the glide path. ct glide path. path. raft is approximately...",
+    "options": [
+      "O03239 @ &",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 101
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & sstion 16 (Multiple Choice) A pilot flying at FL 80 tunes a VOR with an elevation of 313 m Assuming ISA conditiot hat is the maximum theoretical range at which the pilot can receive signals from the VOR?",
+    "options": [
+      "72NM",
+      "113 NM",
+      "89 NM",
+      "he < Bw Results"
+    ],
+    "correct": 1,
+    "id": 102
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & AVDF can be",
+    "options": [
+      "in combination with radar to the 180° ambiguity.",
+      "ing of any navigational station.",
+      "f a published ILS or MLS procedur",
+      "he < Bw Results"
+    ],
+    "correct": 0,
+    "id": 103
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & ‘stal refraction causes errors on NDB bearings. These errors (at lower altit <imum when the NDB is located.",
+    "options": [
+      "lose to the coast and the bearing crosses the coast at a right angle.",
+      "inland and the bearing ci 1e coast at a right angle.",
+      "inland and the bearing ci coast at an acute angle",
+      "he < Bw Results"
+    ],
+    "correct": 1,
+    "id": 104
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & How is the radiation pattern of the h 1 sd?",
+    "options": [
+      "Only on e in the VHF frequ",
+      "erlapping lobes on the same MF carrier frequent",
+      "Only one in the MF frequency band",
+      "he < Bw Results"
+    ],
+    "correct": 1,
+    "id": 105
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) O03239 @ & According to ICAO Doc 8168, an aircraft is \"established\" on the final track of a VOR approach when...",
+    "options": [
+      "+/- 5 NM within final approach track.",
+      "eviation indicator moving within full-s",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 106
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & sstion 22 (Multiple Choice) The range of a locator, as ied in ICAO Annex 10, is.",
+    "options": [
+      "200 NM to 400 NM",
+      "25 NM to 50 NM",
+      "20 NM to 150 NM",
+      "he < Bw Results"
+    ],
+    "correct": 0,
+    "id": 107
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ & sstion 23 (Multiple Choice) When flying at 6000 feet AGL, the DME indicates 5 NM, the approximate horizontal distance from the aircraft to overhead the DME is:",
+    "options": [
+      "4.1NM",
+      "4.5 NM",
+      "5.3 NM",
+      "he < Bw Results"
+    ],
+    "correct": 0,
+    "id": 108
+  },
+  {
+    "question": "062 PT1 062.02 @rTwabe) ©0239 @ & The range of a VDF transmission can be inc! during flight by:",
+    "options": [
+      "easing altitu",
+      "staying clear of rain.",
+      "talking louder.",
+      "he < Bw Results"
+    ],
+    "correct": 1,
+    "id": 109
+  },
+  {
+    "question": "062 PT1 062.02 © \"eatae.:) ©03239 @ &",
+    "options": [
+      "= Question 27 (Multiple Choice)",
+      "rong frequency is tuned.",
+      "left or right of the",
+      "he < Bw Results"
+    ],
+    "correct": 1,
+    "id": 110
+  },
+  {
+    "question": "062 PT1 062.02 Multipath signals ( which effect?",
+    "options": [
+      "ing from th me aircraft) at the",
+      "They always result in the extin",
+      "They usually",
+      "They incre"
+    ],
+    "correct": 0,
+    "id": 111
+  },
+  {
+    "question": "062 PT1 062.02 In case two DME ranges are plotted on a chart to obtain an aircraft fix, which of the following statements is correct?",
+    "options": [
+      "Two circular position lines around the stations intersect at one point, with the distance from",
+      "each transmitter given as a slant range",
+      "Two circular position lines around the stations intersect at two points, with the distance from",
+      "each transmitter given as a horizontal (plan) range"
+    ],
+    "correct": 0,
+    "id": 112
+  },
+  {
+    "question": "1062.01 uestion 1 (Mute Choice) With regard to influence of the ionosphere on wave propagation, which of the following statements is correct?",
+    "options": [
+      "1. VHF and UHF waves can be reflected by the (upper) E- and F-layer resulting in \"space waves\"",
+      "2. The D-layer is only present during night time.",
+      "1 is correct, 2 is incorrect.",
+      "1 is incorrect, 2 is correct."
+    ],
+    "correct": 2,
+    "id": 113
+  },
+  {
+    "question": "062 PT1 06 uestion 2 (Multiple Choice) Aradio signal can be classified by three symbols in agreement with the International Telecommunication Union (ITU) radio. regulation,",
+    "options": [
+      "The Abbreviation NON is used for the type of modulation where,",
+      "rrier with amplitude modulated Morse code as used by NDBs.",
+      "rrier with keyed Morse code modulation as used by NDBs.",
+      "rrier with amplitude modulated speech is used for communication (VHF-COM)"
+    ],
+    "correct": 2,
+    "id": 114
+  },
+  {
+    "question": "— ———— e——————eeeerrr.rcreooror wea ——————SSeS es 062 PT1 062.02 ome oor @ & jon 6 (vitiple Choice) of the",
+    "options": [
+      "ion.",
+      "effect only for NDB navig:",
+      "loping he on naviga",
+      "he «> Results"
+    ],
+    "correct": 0,
+    "id": 115
+  },
+  {
+    "question": "—___eauejEqxm:annnnnmeee ee een 062 PT1 062.02 © Tooter. Cos @ & ston 7 (Multiple Choice) he follo The maximum The maximum r",
+    "options": [
+      "t night e of an NDB i",
+      "than at n",
+      "hee <> Results",
+      "EEE OEOEeoOoO Eee"
+    ],
+    "correct": 0,
+    "id": 116
+  },
+  {
+    "question": "062 PT1 062.02 © Tooker, C78 @ & ion 8 (Multiple Choice) he fol ding the ILS?",
+    "options": [
+      "nit at 90 MHz",
+      "The glide path transmitter is locate 0 the right of the threshold",
+      "The localiser part of the fr d with the DME",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 117
+  },
+  {
+    "question": "062 PT1 06: Figure C Figure D (See attachment IC-062-110) An aircratt is flying on heading 210(M). The magnetic variation is SW at the VOR and 10W at the aircraft. Which figure showing a VOR-RMI corresponds to the indications on the CDI shown in the Annex?",
+    "options": [
+      "Figure B",
+      "Figure C",
+      "Figure A"
+    ],
+    "correct": 0,
+    "id": 118
+  },
+  {
+    "question": "062 PT1 of = Question 12 (Muitiple Choice) Which of the following is correct regarding audio- and visual signals associated with an ILS middle marker, used to indicate horizontal position of the aircraft during approach?",
+    "options": [
+      "udio: low, 2 dots per second",
+      "Visual: magenta light flashes",
+      "udio: high, alternating dots and dashes",
+      "Visual: blue light flashes"
+    ],
+    "correct": 2,
+    "id": 119
+  },
+  {
+    "question": "———eeee enn eee eee een 062 PT1 062.02 © Tooter. Coss @ &",
+    "options": [
+      "ion 18 (Mutiple Choice)",
+      "nmunication and r limited in rat",
+      "waves are abs",
+      "hae «> Results"
+    ],
+    "correct": 0,
+    "id": 120
+  },
+  {
+    "question": "SSS EE 062 PT1 062.02 © Tooter. Coss @ & ion 15 (Multiple Choice)",
+    "options": [
+      "The VOR radi",
+      "1nd the variable ph",
+      "l the aircraft is on and t",
+      "Se <> Results"
+    ],
+    "correct": 0,
+    "id": 121
+  },
+  {
+    "question": "Neen 082 PT1 062.02 —_ oor @ &",
+    "options": [
+      "uestion 16 (Muitiple Choice)",
+      "ption ¢ a e und install",
+      "n emitting ignal ai Q the signal from the station.",
+      "he «> @ Resuits"
+    ],
+    "correct": 0,
+    "id": 122
+  },
+  {
+    "question": "(062 PT1 0 hich of the following ith a VOR station?",
+    "options": [
+      "oth stations ha",
+      "he <> Results"
+    ],
+    "correct": 0,
+    "id": 123
+  },
+  {
+    "question": "062 PT1 Figure C Figure D (See attachment IC-062-105) An aircraft is flying on radial 050 with a heading of 250(M). The course is set to 060. Which figure shows the CDI with the correct indications?",
+    "options": [
+      "Figure A",
+      "Figure B",
+      "Figure D"
+    ],
+    "correct": 0,
+    "id": 124
+  },
+  {
+    "question": "uestion 26 (Multiple Choice) During NAV-setup for an ILS approach, what parameters should be respected for when deciding which value the Course Selector should be pointing at?",
+    "options": [
+      "1. Localiser Approach Course",
+      "2. Expected Drift / Wind Correction Angle (WCA)",
+      "3. Local Variation",
+      "1 and3"
+    ],
+    "correct": 1,
+    "id": 125
+  },
+  {
+    "question": "062 PT oF uestion 29 (Multiple Choice) In case of receiving \"multipath\" signals during an ILS approach within the coverage area, indication on the instruments may show: 1. Steady warning flags",
+    "options": [
+      "2. Frequently changing, random deflections",
+      "3. Occasional popup of warning flags",
+      "4, Reverse sensing of LOC or GP indicator",
+      "2,3 and 4"
+    ],
+    "correct": 3,
+    "id": 126
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels & se20ee 1009 aM . @ caeonineab.peesy.com @ 062 PT2 06 2B ent To calculate an aircraft's groundspeed, a GNSS receiver measures the. time travelled by the satelite signal between satelite and receiver. phase of the received satelite signal. difference in depth of modulation. 2eGe20 2004 =Ba58 @ caeontneah.peesys.com @ A fix in a Satellite-Assisted Navigation System (GNSS) is obtained by:",
+    "options": [
+      "measuring the time taken for an aircraft's transmissions to reach all satellites of the system",
+      "measuring the time taken for all of the system's satellites’ transmissions to reach an aircraft",
+      "the aircraft's receiver measuring the phase angle of signals received from a number of satellites in known positions",
+      "2908=580860880-5°9850 GG0° =m ieee 8"
+    ],
+    "correct": 0,
+    "id": 127
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels 2 caeontnesh.peesy.com @ 062 P72.06: ‘= Question 7 (Multiple Croce) A fix in a Satellite-Assisted Navigation System (GNSS) is obtained by: measuring the time taken for an aircraft's transmissions to reach all satellites of the system @ wx measuring the time taken for all of the system's satellites’ transmissions to reach an aircraft the aircraft's receiver measuring the phase angle of signals received from a number of satelites in known positions @ caeontneah.peesys.com @ Regarding the principle of SBAS operation, a correction signal is broadcast. from polar-orbiting satolites to GNSS receivers distributed over a wide area.",
+    "options": [
+      "from geostationary satellites to GNSS receivers located an aerodrome's terminal area.",
+      "ground-based transmitters to GNSS receivers located an aerodrome's terminal area.",
+      "2806580860800. 29985°0 200° =m",
+      "maha .f"
+    ],
+    "correct": 0,
+    "id": 128
+  },
+  {
+    "question": "6 sefari Fle Edit View History Bookmarks Window Hels Qe Dec 10.09 aM . @ caeonineab.peesy.com @ 062 PT2 06 = Qvesien 4 utole Cri A GPS-based SBAS (Satelite-Based Augmentation System) uses setelites to transmit corrections to users' receivers. Which of the following statements about these satellites is true?",
+    "options": [
+      "Pseudo-range measurements to these satelites can be made as they are GPS satellites which are part of the GPS",
+      "satellite constellation.",
+      "Pseudo-range measurements to these geostationary satelites cannot be made as they do not transmit on a GPS",
+      "frequency."
+    ],
+    "correct": 0,
+    "id": 129
+  },
+  {
+    "question": "Safari Fle Eat View History Bookmarks Window Hels & se20ee 1009 aM . @ caeonineab.peesy.com @ 062 P72.06: 2 ext When the aircraft on final approach is fitted with a GBAS receiver, GBAS corrects the aircraft's on-board GPS position and. corrects only for vertical approach path details. provides the precision approach path details. corrects only for lateral approach path details. 22OSS8O08260880-2°9820 C004 ean E=-—ar .f @ caeonineab.peesy.com @ Aircraft Autonomous Integrity Monitoring (AIM) is a type of Airborne Based Augmentation System which only relies on information from additional on-board sensors.",
+    "options": [
+      "only relies on GNSS information.",
+      "is self-contained and works without any equipment located outside the aircraft.",
+      "> Bresutts",
+      "9SOSSS8OS82HG0860-870988C C00\" =m maa, &"
+    ],
+    "correct": 0,
+    "id": 130
+  },
+  {
+    "question": "a  — 062 PT2.062.06 @ Tecan. Cos122 @ &",
+    "options": [
+      "ion 1 (Multiple Choice)",
+      "n aircraft's grc",
+      "nce in depth of modulation",
+      "nd rer"
+    ],
+    "correct": 0,
+    "id": 131
+  },
+  {
+    "question": "aaa ar 062 PT2.062.06  @ Tooter. Co4122 @ & uestion 2 (Multiple Choice) The time corrected = clock correction parameters in the navigation me tity",
+    "options": [
+      "inated time.",
+      "ite time and re",
+      "hs «> Results",
+      "EeeGCO"
+    ],
+    "correct": 0,
+    "id": 132
+  },
+  {
+    "question": "= Question 3 (Multiple Choice) Which error can be compensated for by a NAVSTAR/GPS receiver comparing L1 and L2 frequencies?",
+    "options": [
+      "1. lonospheric delay",
+      "2. Multipath disruption",
+      "3. Receiver noise"
+    ],
+    "correct": 0,
+    "id": 133
+  },
+  {
+    "question": "062 PT2.062.06 © Teter. C412 @ & Duestion 4 (Multiple Choice)",
+    "options": [
+      ", a task of tl",
+      "to control the motion of the GPS-sat",
+      "to control whether the pilot flies th",
+      "mit differential"
+    ],
+    "correct": 0,
+    "id": 134
+  },
+  {
+    "question": "(062 PT2 062.06 stion 8 (Multiple Choice) When the aircraft",
+    "options": [
+      "es the airc",
+      "rrects only fo",
+      "orrects only for vertical approach path deta",
+      "hae <> @ Results"
+    ],
+    "correct": 1,
+    "id": 135
+  },
+  {
+    "question": "Cos122 @ & uestion 9 (Multiple Choice)",
+    "options": [
+      "What minimum number of satellites is required for:",
+      "signal reception to perform an independent 3-dimensional fix",
+      "Receiver Autonomous integrity Monitoring (RAIM)",
+      "~ and the detection / exclusion of a faulty satelite?"
+    ],
+    "correct": 1,
+    "id": 136
+  },
+  {
+    "question": "a arn (062 PT2 062.06 (Oran Ou @ & ed Augmentation Sy \\S) uses up to (1)__ satellites to improve accuracy to (2) orizontally and to advise any GPS malfunctions to users within (3) __. (1) six ational [ conds",
+    "options": [
+      "(1) six polar-orbiting, (2) 1m, (3) 60 s",
+      "(1) four polar-orbiting, (2) 10 m, (3) 6 sec",
+      "Ene <> Results",
+      "eGSOV'—_O"
+    ],
+    "correct": 1,
+    "id": 137
+  },
+  {
+    "question": "062 PT2.062.06 @ Teter. C412 @ & ion 11 (Multiple Choice)",
+    "options": [
+      "lite Orbital Variatic",
+      "Geometric Dilution of Precision (GDC",
+      "oheric Propagation Delay (IPD)",
+      "he <> @ Results"
+    ],
+    "correct": 1,
+    "id": 138
+  },
+  {
+    "question": "= Question 14 (Multiple Choice) Examples of operational SBAS are: 1. WAAS (USA) 2. IRNSS (india) 3. MSAS (Japan) 4, EGNOS (Europe) 5. GAGAN (India)",
+    "options": [
+      "6. SDCM (Japan)",
+      "1,2, 3and 4.",
+      "1,3, 5 and 6.",
+      "1,2, 4 and 5,"
+    ],
+    "correct": 1,
+    "id": 139
+  },
+  {
+    "question": "062 PT3 062.07 —— Oouize @ & sm Errc",
+    "options": [
+      "raft's estin and actual position",
+      "ined in the RN he desir",
+      "\\utopilot's ability to foll 2 path or track, including any",
+      "e «> G Results"
+    ],
+    "correct": 1,
+    "id": 140
+  },
+  {
+    "question": "(062 PTS 062.07 Cm Oc stion 17 (Multiple Cho with (0 PBN, what navigation error(s)",
+    "options": [
+      "FTE (Flight Technical Error) only",
+      "TSE (Total System Error) and PDE (Path Deviation Error)",
+      "PDE (Path Devia Error) and NSE (Ne",
+      "<> Results"
+    ],
+    "correct": 0,
+    "id": 141
+  },
+  {
+    "question": "062 PT3 062.07 © Techn Co12 @ & ion 19 (Multiple Choice) mM Error (NSE) Gaussian distribution with a standard deviation equal to the root sum square (RSS) of the st tributing errors. ith defined in the RNAV system does not pond to the ak",
+    "options": [
+      "ss to the air crew or aut bility to follow the defined path or track, includir",
+      "entring error),",
+      "x <> Results",
+      "———aEO——EOEOEEE———E——eOooe—eOeeeOOOOooeeeee—E—E———EEOOO——ee"
+    ],
+    "correct": 0,
+    "id": 142
+  },
+  {
+    "question": "062 PT3 062.07 @ Tester Cou12 @ &",
+    "options": [
+      "ion 20 (Mutiple Choice)",
+      "The \"AR\" in \"RNP AR AF means that",
+      "h is flown “all in radar\" contact.",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 143
+  },
+  {
+    "question": "041.22 uestion 21 (Multiple Choice) With regard to RNP APCH to LNAV/VNAV minima based on Baro-VNAV, which of the statements is correct?",
+    "options": [
+      "1. Temperature compensation systems with an airworthiness approval provide corrections to the Baro-VNAV guidance",
+      "uring Final approach segment.",
+      "2. High temperatures reduce the effective glide path angle.",
+      "1 is incorrect, 2 is incorrect"
+    ],
+    "correct": 2,
+    "id": 144
+  },
+  {
+    "question": "= Question 22 (Multiple Choice) With regard to PBN operations, RNAV 2 can be used for the following phases of flight: 1. En-route continental 2. Arrival",
+    "options": [
+      "3. Departure",
+      "2 and 3 only.",
+      "1 and 2 only.",
+      "1 only."
+    ],
+    "correct": 1,
+    "id": 145
+  },
+  {
+    "question": "= Question 25 (Muitipie Choice) ATC informs to expect RNP Approach (RNP APCH) Runway 09. In case one waypoint of the RNP APCH is missing in the navigation database, the recommended action should be: to continue approach procedure, because RNP APCH waypoints may be omitted in accordance with ATC ® clearance. (2)",
+    "options": [
+      "to create a new RNP APCH to the on-board navigation database taking into account all waypoints from the charted",
+      "procedure. °",
+      "manually update the RNP APCH route retrieved from the on-board navigation database to conform to the charted @",
+      "procedure."
+    ],
+    "correct": 1,
+    "id": 146
+  },
+  {
+    "question": "route procedures, which fal",
+    "options": [
+      "ius to fix (RF) |",
+      "Radius leg (RL)",
+      "Fly-by (FB) turn",
+      "he <> @ Results"
+    ],
+    "correct": 1,
+    "id": 147
+  },
+  {
+    "question": "062 PT3 062, —— Cou @ & lutiple Choice)",
+    "options": [
+      "ith regard to PBN, a ne",
+      "RNP 2",
+      "RNAV 10",
+      "Ser <> @ Resutts"
+    ],
+    "correct": 1,
+    "id": 148
+  },
+  {
+    "question": "8 SSS... 0= 062 PT3 062.07 a= C412 @ & on 28 (Multiple Choice) ‘AO m Error (TSE) 10 the air crew or autopilot's ability to follow the defined path or tr",
+    "options": [
+      "ntring error)",
+      "occurs when the path defined in the RN",
+      "refers to the difference between the aircra",
+      "hae <> @ Results"
+    ],
+    "correct": 0,
+    "id": 149
+  },
+  {
+    "question": "(062 PT3 062.07 OOTES ey RNAV / RNP1 / RNP2 SID ding to the charted r",
+    "options": [
+      "ny rout",
+      "jo the route nt ding to NOTAM.",
+      "Ke < Results",
+      "EE Eee"
+    ],
+    "correct": 0,
+    "id": 150
+  },
+  {
+    "question": "062 P73 062.07 fo Oousss @",
+    "options": [
+      "y of tl S b lying s ations on the",
+      "V input",
+      "using statistical n or probabilities",
+      "orrect, 2 is incorrect."
+    ],
+    "correct": 1,
+    "id": 151
+  },
+  {
+    "question": "062 PT2.062.06 ore, ©0342 @ &",
+    "options": [
+      "llite Orbital Variation:",
+      "ric Dilution of Precision (@DOP)",
+      "lent Range Error (UERE)",
+      "hae <>? Results"
+    ],
+    "correct": 1,
+    "id": 152
+  },
+  {
+    "question": "062 PT2 062.06 accuracy of position fi the LAAS ground referer The furth the aircraft position fix.",
+    "options": [
+      "lent of the",
+      "= 20%",
+      "©0342 @ &",
+      "Results"
+    ],
+    "correct": 0,
+    "id": 153
+  },
+  {
+    "question": "062 PT2.062.06 ore, ©0342 @ & Which of the foll e Augmentation",
+    "options": [
+      "ent to the users by the satel",
+      "GPS",
+      "k of ground",
+      "hae <>? Results"
+    ],
+    "correct": 0,
+    "id": 154
+  },
+  {
+    "question": "062 PT2.062.06 ore, ©0342 @ & Which of the foll",
+    "options": [
+      "perio",
+      "y the sat",
+      "ther",
+      "hae <>? Results"
+    ],
+    "correct": 0,
+    "id": 155
+  },
+  {
+    "question": "062 PT2.062.06 ore, ©0342 @ & jel of the ionosphere are contain",
+    "options": [
+      "metric dilution of ¢",
+      "ork on th",
+      "from all",
+      "hae <>? Results"
+    ],
+    "correct": 1,
+    "id": 156
+  },
+  {
+    "question": "062 PT3 062.07 ntinuity en tl an be ur sured or which relia tion inform",
+    "options": [
+      "rings to users whe ystem should not be",
+      "7 s0% a>",
+      "ox26 @ &",
+      "Resuls"
+    ],
+    "correct": 0,
+    "id": 157
+  },
+  {
+    "question": "062 PTS 062.07 ore, ©0342 @ & With regard to RNP APCH to LNA\\ a f the statements ompensati ons to the juidance during Final approach segment",
+    "options": [
+      "ratures reduce th glide",
+      "2 is correct.",
+      "orrect, 2 is correct,",
+      "hae <>? Results"
+    ],
+    "correct": 2,
+    "id": 158
+  },
+  {
+    "question": "062 PTS With regard to PBN, RNP APCH to LN minima. minima.",
+    "options": [
+      "ich (NPA) proc",
+      "7 s0% a>",
+      "©0342 @ &",
+      "Results"
+    ],
+    "correct": 1,
+    "id": 159
+  },
+  {
+    "question": "uestion 24 (Multiple Choice) For an aircraft flying an RNAV approach, which situations below would the contingency procedure of discontinuing the RNAV approach and reverting to a conventional arrival route apply? In case of: 1. Integrity monitoring loss 2. TCAS advisory message 8. CDI indication more than half scale displacement",
+    "options": [
+      "4. Communications failure",
+      "5. Receiver failing to engage correct approach mode",
+      "1,2and4",
+      "2,4 and"
+    ],
+    "correct": 3,
+    "id": 160
+  },
+  {
+    "question": "062 PT3 062.07 Select the ferring to th Using inc",
+    "options": [
+      "ID or STAR:",
+      "189%",
+      "©0342 @ &",
+      "Results"
+    ],
+    "correct": 1,
+    "id": 161
+  },
+  {
+    "question": "062 PTS 062.07 ore, ©0342 @ & vest With reg; of the fol tater rect?",
+    "options": [
+      "1, RNAV specifications e 16 ground-based performance monitoring ¢",
+      "lerting.",
+      "rent for on-board performance monitoring and alerting.",
+      "1 is incorrect, 2 is correct."
+    ],
+    "correct": 3,
+    "id": 162
+  },
+  {
+    "question": "062 PT3 062.07 Quest correct, 2 is inc 1 is correct, 1 is correct, 2 orrect?",
+    "options": [
+      "7 80%",
+      "©0342 @ &",
+      "Results"
+    ],
+    "correct": 2,
+    "id": 163
+  },
+  {
+    "question": "062 PT3 062.07 (rete Dusstion 28 (ut V 10 and RNP 4 can b used for the follc",
+    "options": [
+      "Feo mm",
+      "os @ &",
+      "of fight:",
+      "Results"
+    ],
+    "correct": 1,
+    "id": 164
+  },
+  {
+    "question": "‘= Question 1 (Multiple Choice) Which statement regarding an oscil tric ( lating magnetic (H) field an of a electromagnetic wave is correct?",
+    "options": [
+      "The (H) field is parallel to the wire and the (E) field is perpendicular to it.",
+      "When a constant current is transmitted through the antenna the (E) and (H) field are",
+      "ipole antenna is only able to transmit the (H) field."
+    ],
+    "correct": 1,
+    "id": 165
+  },
+  {
+    "question": "= Question 8 (Multiple Choice)",
+    "options": [
+      "The D-layer and E-layer",
+      "tropopause",
+      "stratosphere.",
+      "mesosphere."
+    ],
+    "correct": 0,
+    "id": 166
+  },
+  {
+    "question": "= Question 4 (Multiple Choice) Which statement regarding the \"amplitude\" of a wave or oscillation is correct?",
+    "options": [
+      "It is an information carried by a wav",
+      "It is the speed of propagat ided by frequency",
+      "It is the maximum length"
+    ],
+    "correct": 1,
+    "id": 167
+  },
+  {
+    "question": "A Microwave Landing System (MLS) uses which method to indicate distance from the runway threshold?",
+    "options": [
+      "Timing the interval between the transmission and reception of GPS ephemeris data",
+      "Measurement of the siant range from the onboard receiver to the g ion and also",
+      "measuring the time interval.",
+      "Timing the interval between the transmission and reception of primary radar pulses from the"
+    ],
+    "correct": 1,
+    "id": 168
+  },
+  {
+    "question": "Which ILS marker is identified audibly by a series of alternate dots and dashes?",
+    "options": [
+      "Outer marker",
+      "eacon",
+      "Inner marker"
+    ],
+    "correct": 1,
+    "id": 169
+  },
+  {
+    "question": "= Question 10 (Multiple Choice) In order to provide a pilot with the po of the aircraft, when werage, ATC must",
+    "options": [
+      "have at least.",
+      "three VDFs.",
+      "reously on the transmitted frequency,",
+      "one VDF only"
+    ],
+    "correct": 1,
+    "id": 170
+  },
+  {
+    "question": "Which statement is correct regarding scalloping, which can affect the ILS signal?",
+    "options": [
+      "Scalloping are major changes or bends in the approach path which cannot be followed by the",
+      "ircraft",
+      "Scalloping are major changes or bends in the approach path which can be followed only by",
+      "large aircraft"
+    ],
+    "correct": 1,
+    "id": 171
+  },
+  {
+    "question": "= Question 12 (Multiple Choice) The range of a non-directional beacon (NDB) will be...",
+    "options": [
+      "lways greater by day than at night",
+      "unaffected by transmitter power",
+      "ependent on the aircraft height"
+    ],
+    "correct": 1,
+    "id": 172
+  },
+  {
+    "question": "= Question 13 (Multiple Choice)",
+    "options": [
+      "VOF can be used,",
+      "to obtain a bearing and DME reading of any navigational station",
+      "in combination with radar to solve the 180° ambiguity.",
+      "to facilitate a precision approach in the absence of a published ILS or MLS procedure."
+    ],
+    "correct": 1,
+    "id": 173
+  },
+  {
+    "question": "= Question 14 (Multiple Choice) VHF Omnirange (VOR) operate with what wavelengths?",
+    "options": [
+      "kilometric.",
+      "entimetric",
+      "hectometric."
+    ],
+    "correct": 1,
+    "id": 174
+  },
+  {
+    "question": "Which of the following is an advantage of a Microwave Landing System (MLS) over an Instrument Landing System (ILS)?",
+    "options": [
+      "Its operation is cheaper and it is more commonly use",
+      "It does not require a separate transmitter for azimuth (localiser) and elevation coverage",
+      "It does not require additional distance measuring equipment"
+    ],
+    "correct": 1,
+    "id": 175
+  },
+  {
+    "question": "= Question 17 (Multiple Choice) The OUTER MARKER of an Instrument Landing System (ILS) facility transmits on a frequen",
+    "options": [
+      "42 and is mo",
+      "75 MHz and is modulated by morse at alternate dots and das!",
+      "75 MHz and is modulated by morse at two dashes per second.",
+      "250 MHz and is modulated by morse at alternate dots and dashes."
+    ],
+    "correct": 0,
+    "id": 176
+  },
+  {
+    "question": "= Question 20 (Multiple Choice) Which of the following state The ILS GP generally must be flown with a maximum of % fly-up deflection in order to be considered established",
+    "options": [
+      "The ILS GP must be flown with a maximum of % fly-up deflection in order to stay in protected",
+      "irspace.",
+      "The aircraft has to be established within % deflection of the LOC before starting descent on",
+      "the GP."
+    ],
+    "correct": 0,
+    "id": 177
+  },
+  {
+    "question": "= Question 21 (Multiple Choice)",
+    "options": [
+      "ME operates in",
+      "VHF band and uses one frequency",
+      "UHF band and uses one frequency",
+      "VHF band and uses two frequencies"
+    ],
+    "correct": 0,
+    "id": 178
+  },
+  {
+    "question": "= Question 22 (Multiple Choice) An aircraft flying at FL 130 should be able to receive information from a VDF facility located at 1024 ft",
+    "options": [
+      "ove MSL at a maximum theoretical range of approximately.",
+      "132 NM",
+      "210 NM",
+      "165 NM"
+    ],
+    "correct": 1,
+    "id": 179
+  },
+  {
+    "question": "= Question 23 (Multiple Choice) The tip of a VOR needle on an RMI indic",
+    "options": [
+      "With the CRS set to he indications on the HS!",
+      "TO, half scale deflection to the left",
+      "FROM, half scale deflection to the right",
+      "FROM, half scale deflection t left"
+    ],
+    "correct": 1,
+    "id": 180
+  },
+  {
+    "question": "= Question 27 (Multiple Choice) The front end of a VOR pointer on an RMI indicates the...",
+    "options": [
+      "tual radial.",
+      "magnetic bearing from the",
+      "ompass heading to the st"
+    ],
+    "correct": 1,
+    "id": 181
+  },
+  {
+    "question": "= Question 29 (Multiple Choice) TACAN station is of what use to civil aviation?",
+    "options": [
+      "It is of use only for military aviation",
+      "It can provide a DME distance and a bearing",
+      "It can provide a magnetic bearing only"
+    ],
+    "correct": 1,
+    "id": 182
+  },
+  {
+    "question": "The range of VHF waves is...",
+    "options": [
+      "independent of the altitude of the aircraft but dependent on the power of the transmitter",
+      "independent of the elevation of the antenna of the transmitter.",
+      "Not affected by mountainous areas."
+    ],
+    "correct": 1,
+    "id": 183
+  },
+  {
+    "question": "= Question 4 (Multiple Choice) Which of the following statements about the VHF/UHF propagation in connection with Ground Direction Finders is true?",
+    "options": [
+      "Neither VHF/UHF has a sky wave under any con INS or VHF the surf rave is the main ®",
+      "propagation path and UHF has the space v.",
+      "For both VHF/UHF propagation, the space wave is the only propagation path. Sky waves do",
+      "Under normal conditions, VHF has a sky wave as opposed to UHF. For both VHF/UHF"
+    ],
+    "correct": 1,
+    "id": 184
+  },
+  {
+    "question": "= Question 7 (Multiple Choice) Which of the following approach aids are assigned to the UHF band?",
+    "options": [
+      "1. Locator",
+      "2. Localiser",
+      "3. Outer marker",
+      "4. Glide path"
+    ],
+    "correct": 1,
+    "id": 185
+  },
+  {
+    "question": "Figure 3 Figure 4 Graphics by curtesy of np /huzmontero com (See attachment IC-062-120) Which of the CDI from the annex shows the correct setting and indication for a approach on runway 06?",
+    "options": [
+      "Runway track: 055(M)",
+      "Localiser approach course: 070(M)",
+      "Figure 1",
+      "Figure 4"
+    ],
+    "correct": 3,
+    "id": 186
+  },
+  {
+    "question": "= Question 10 (Multiple Choice) An aircraft tracking to intercept the ILS localiser on the approach side, outside the published ILS coverage angle...",
+    "options": [
+      "n expect interference with other ILS stations.",
+      "will receive signals without identification coding,"
+    ],
+    "correct": 1,
+    "id": 187
+  },
+  {
+    "question": "= Question 12 (Multiple Choice",
+    "options": [
+      "With regard to the type of modulation, to identify an NDB station the procedure is t",
+      "set the BFO-switch to “ON* in case of NON modulation.",
+      "NDB stations are identified automatically in all types of m",
+      "use the ANT function in case of A1 modulation:"
+    ],
+    "correct": 1,
+    "id": 188
+  },
+  {
+    "question": "= Question 13 (Multiple Choice) Which of the following frequencies c ILS localiser frequency?",
+    "options": [
+      "108.65 MHz",
+      "109.80 MHz",
+      "112.10 MHz"
+    ],
+    "correct": 1,
+    "id": 189
+  },
+  {
+    "question": "= Question 14 (Multiple Choice) Conducting an IL oach, marker beacons indicate the horizontal posit pass these markers in the following order:",
+    "options": [
+      "IM (if available), MM, OM",
+      "n of the aircraft, you will",
+      "MM, OM, IM (if available)",
+      "OM, IM (if available), MM"
+    ],
+    "correct": 1,
+    "id": 190
+  },
+  {
+    "question": "= Question 15 (Multiple Choice) According ICAO Annex 10, an ILS y with NO d ight and NO runway visual rar",
+    "options": [
+      "limitations, is:",
+      "tegory Illb",
+      "tegory I",
+      "tegory Illa"
+    ],
+    "correct": 1,
+    "id": 191
+  },
+  {
+    "question": "& Question 18 (Multiple Choica ‘When using VOR radial for a procedure turn, track guidance of a radial can be used, then initiating a 80 degrees turn to the left, followed by.",
+    "options": [
+      "timed leg with constant heading, then 180° turn to the right to intercept inbound track.",
+      "left turn intercept inbound track.",
+      "ic}",
+      "timed leg with constant track, then 90° turn to the left to intercept inbound track."
+    ],
+    "correct": 1,
+    "id": 192
+  },
+  {
+    "question": "= Question 17 (Multiple Choice)",
+    "options": [
+      "The DME receiver of an aircraft passing at 12000 ft overhead a DME station will",
+      "random number.",
+      "ONM.",
+      "1 NM by"
+    ],
+    "correct": 0,
+    "id": 193
+  },
+  {
+    "question": "= Question 18 (Multiple Choice) AOR and an NDB are co-located. Both the VOR- and the ADF-readings are displayed on the RMI The aircraft is tracking away from the stations on radial 090. The magnetic variation is changing rapidly. The indication of the ADF pointer will change, the indication of the VOR pointer will not change. The indication of the ADF pointer will not change, the indication of the VOR pointer will change.",
+    "options": [
+      "Neither the diraction of the ADF pointer,",
+      "nor the direction of the VOR pointer will c",
+      "oth the indication of the ADF pointer,",
+      "nd the indication of the VOR poi"
+    ],
+    "correct": 1,
+    "id": 194
+  },
+  {
+    "question": "= Question 19 (Multiple Choice) An aircraft flying at 6400 ft should receive a VOR stati",
+    "options": [
+      "t an approximate maximum range of.",
+      "174NM",
+      "111. km",
+      "102 NM"
+    ],
+    "correct": 1,
+    "id": 195
+  },
+  {
+    "question": "= Question 20 (Multiple Choice) Regarding the glide path principle of operation in an ILS, the difference of 90 Hz and 150 Hz sign wil...",
+    "options": [
+      "increase with displacement only above t",
+      "ecrease with displacement above or below the glide path",
+      "increase with displacement only below the glide path."
+    ],
+    "correct": 1,
+    "id": 196
+  },
+  {
+    "question": "= Question 22 (Multiple Choice) The localiser (LOC) of an ILS transmits in...",
+    "options": [
+      "the UHF and LF be",
+      "the MF band.",
+      "the EHF band."
+    ],
+    "correct": 1,
+    "id": 197
+  },
+  {
+    "question": "= Question 23 (Multiple Choice) How is the radiation pattern of the Instrument Landing System localiser (ILS LOC) correct described?",
+    "options": [
+      "Two overlapping lobes on the same MF carrer freq}",
+      "Only one lobe in the VHF frequency band",
+      "Only one lobe in the MF frequency band"
+    ],
+    "correct": 1,
+    "id": 198
+  },
+  {
+    "question": "= Question 2¢ (Multiple Choice) In order to provide a pilot with the po of the aircraft, wher 2 werage, ATC must have at least.",
+    "options": [
+      "three VDFs.",
+      "wo co-located VDFs, able to take bearings simultaneously on the transmitted frequency.",
+      "two VDFs at different locations, able to take bearings simultaneously on the tr",
+      "frequency."
+    ],
+    "correct": 1,
+    "id": 199
+  },
+  {
+    "question": "= Question 26 (Multiple Choice) Considering the following data, where does the H ation bar appe: Heading: 160(M) Aircraft on radial: 24",
+    "options": [
+      "ourse",
+      "‘Ahead of the aeroplane sy with the TO flag showir",
+      "head of the aeroplane sy vith the FROM flag showing",
+      "ehind the aeroplane symbol with the TO flag showing"
+    ],
+    "correct": 1,
+    "id": 200
+  },
+  {
+    "question": "= Question 28 (Multiple Choice)",
+    "options": [
+      "Which error is ass",
+      "Shoreline et",
+      "lock error",
+      "Night effect"
+    ],
+    "correct": 0,
+    "id": 201
+  },
+  {
+    "question": "= Question 29 (Multiple Choice) In case of using NDBVADF with “tracking”, when flying to or from the station with ec",
+    "options": [
+      "QDM/QDR, due to wind correction the needle on the RBI usually..",
+      "shows an increasing or decreasing",
+      "is deflected to the left or right by the wind correction angle (WGA)",
+      "should be corrected to 000 position until no further deflection occurs."
+    ],
+    "correct": 1,
+    "id": 202
+  },
+  {
+    "question": "= Question 1 (Multiple Choice) The type of polarization when the e! plane, is referred to as:",
+    "options": [
+      "Elliptical polarization",
+      "ircular polarization",
+      "Planar polarization",
+      "own in a"
+    ],
+    "correct": 1,
+    "id": 203
+  },
+  {
+    "question": "= Question 3 (Multiple Choice) The skip distance of HF transmission increases wit __of the refracting ionospheric",
+    "options": [
+      "rea e ry",
+      "lower frequency and a lower level",
+      "lower frequency and a higher level",
+      "higher frequency and a lower level"
+    ],
+    "correct": 0,
+    "id": 204
+  },
+  {
+    "question": "= Question 2 (Multiple Choice) Radio waves utilized with NDB are associated with which freque range of frequencies?",
+    "options": [
+      "UHF, sky waves, 329.15 to 335 MHz.",
+      "HF, surface (ground) and sky waves, 3 to 30 MHz"
+    ],
+    "correct": 1,
+    "id": 205
+  },
+  {
+    "question": "The simplest type of an antenna is a...",
+    "options": [
+      "monopole antenna.",
+      "quadrupole antenna.",
+      "loop antenna ."
+    ],
+    "correct": 1,
+    "id": 206
+  },
+  {
+    "question": "‘Question 26 (Multiple Choice) The aircraft VOR receiver...",
+    "options": [
+      "measures the time difference ption of two signals transmitted by the ground",
+      "installation.",
+      "uses p frequency modulation.",
+      "measures the time difference between emitting its own signal and receiving the signal from the _@"
+    ],
+    "correct": 1,
+    "id": 207
+  },
+  {
+    "question": "‘Question 27 (Multiple Choice)",
+    "options": [
+      "e said that generally at",
+      "the range decreases and the accuracy increases",
+      "the range decreases and the accuracy also decreases.",
+      "the range increases and the accuracy also increases."
+    ],
+    "correct": 1,
+    "id": 208
+  },
+  {
+    "question": "= Question 23 (Multiple Choice)",
+    "options": [
+      "oastal refraction is caused by.",
+      "the height difference of NDB antenna and the aircraft.",
+      "the turbulence affecting aircraft when crossing a coastline",
+      "reflec e EM-wave at the coastline"
+    ],
+    "correct": 1,
+    "id": 209
+  },
+  {
+    "question": "= Question 29 (Multiple Choice) Which frequency band is associated with the",
+    "options": [
+      "SHF band",
+      "LF band",
+      "MF/HF band",
+      "of an ILS marker beacon?"
+    ],
+    "correct": 1,
+    "id": 210
+  },
+  {
+    "question": "= Question 14 (Multiple Choice) The Beat Frequency Oscillator (BFO) in a modi receiver.",
+    "options": [
+      "is unusable.",
+      "is not installed because modem aircraft do not use ADI",
+      "must always be activated manually",
+      "1d aircraft with a modern ADF"
+    ],
+    "correct": 1,
+    "id": 211
+  },
+  {
+    "question": "= Question 12 (Multiple Choice) An aircraft intends to track radial 033 of a VOR inbound. Variation is 10W, the wind from 090(T) results in a drift of 3° to the right.",
+    "options": [
+      "On the OBS, the course selected should be (1)___ and the initial magnetic heading to track is (2!",
+      "1) 213, (2) 216(M)",
+      "1) 083, (2) 213(M)",
+      "1) 083, (2) 210(M)"
+    ],
+    "correct": 1,
+    "id": 212
+  },
+  {
+    "question": "= Question 10 (Multiple Choice)",
+    "options": [
+      "Which of the following stat",
+      "The on-board instrument coupled with the VOR is the ADF",
+      "ll VORs operate in the MF and HF band",
+      "VOR is less accurate than a CVOR"
+    ],
+    "correct": 0,
+    "id": 213
+  },
+  {
+    "question": "The operating principle of a Microwave Landing System (MLS) uses (1) _ between TO and FROM scans in (2)__ to determine the aircraft's position within the coverage area.",
+    "options": [
+      "1) difference in modulation, (2) azimuth and elevation",
+      "1) time intervals, (2) azimuth and elevation",
+      "(2)",
+      "1) difference in modulation, (2) range and height"
+    ],
+    "correct": 1,
+    "id": 214
+  },
+  {
+    "question": "= Question 7 (Multiple Choice)",
+    "options": [
+      "n aircraft tracking along a VOR ra",
+      "ompass heading",
+      "rhumb line track",
+      "small circle track"
+    ],
+    "correct": 1,
+    "id": 215
+  },
+  {
+    "question": "= Question 6 (Multiple Choice)",
+    "options": [
+      "Which of the following is an",
+      "It only requires a VHF radio to be fitted to the aircraft",
+      "It requires only a VHF radio to be installed in the aircraft or on the ground",
+      "Itis pilot-interpreted and no assistance by ATC is needed"
+    ],
+    "correct": 1,
+    "id": 216
+  },
+  {
+    "question": "= Question 20 Multiple Choice)",
+    "options": [
+      "To avoid inaccuracies caused by coastal refraction, a pilot should take an ADF bearing when.",
+      "the relative bearing is perpendicular to the compass heading.",
+      "the aircraft is on any bearing from the station, but very close to the coast",
+      "the relative bearing is either 090° or 270'"
+    ],
+    "correct": 1,
+    "id": 217
+  },
+  {
+    "question": "The principle used for the bearing measurement of a VOR is...",
+    "options": [
+      "envelope adjustment",
+      "epth of modulation.",
+      "wave comparison"
+    ],
+    "correct": 1,
+    "id": 218
+  },
+  {
+    "question": "With regard to influence of the ionosphere on wave propagation, which of the following statements is orrect?",
+    "options": [
+      "1. The D-layer can absorb the LF / MF waves and prevent reflection at the higher E- and F-layers.",
+      "2. The D-layer is only present during daytime.",
+      "is incorrect, 2 is incorrect",
+      "is incorrect, 2 is correct."
+    ],
+    "correct": 1,
+    "id": 219
+  },
+  {
+    "question": "= Question 9 (Multiple Choice)",
+    "options": [
+      "OR is located at position A (45°00'N, 010°00'E). An aircraft passes position B (44°00'N.",
+      "010°00'E)",
+      "When the magnetic variation is 10W at A and 15W at B, the aircraft is on VOR radial",
+      "185"
+    ],
+    "correct": 1,
+    "id": 220
+  },
+  {
+    "question": "The night effect affecting an ADF may cause...",
+    "options": [
+      "more accurate indications of the needle on",
+      "No errors because an ADF is compensated",
+      "onstant error in the indicated bearing,"
+    ],
+    "correct": 1,
+    "id": 221
+  },
+  {
+    "question": "= Question 12 (Multiple Choice) Which ILS marker has the lowest aural frequency?",
+    "options": [
+      "Inner marker",
+      "Middle marker",
+      "Position marker"
+    ],
+    "correct": 1,
+    "id": 222
+  },
+  {
+    "question": "When using NDB/ADF for Holding pr",
+    "options": [
+      "indicates a relative bearing of:",
+      "The inbound track",
+      "000 or 180",
+      "The outbound track"
+    ],
+    "correct": 1,
+    "id": 223
+  },
+  {
+    "question": "= Question 14 (Multiple Choice) Which of the following statements is correct about the use of a Doppler VOR (DVOR)?",
+    "options": [
+      "The Doppler VOR is less accurate but cheaper in mainter ompared to a conventional",
+      "VOR",
+      "The Doppler effect is used to create a signal which is received by the aircraft's VOR-receiver",
+      "s a frequency-modulated signal"
+    ],
+    "correct": 2,
+    "id": 224
+  },
+  {
+    "question": "= Question 15 (Multiple Choice) According ICAO Annex 10, defines an ILS category as \"an ILS which provides guidance information from the coverage limit of the ILS to the point at which the localizer course line intersects the ILS glide path at a height of 60 m (200 ft) or less above the horizontal plane containing the threshold. This definition refers to which Facility Performance Category?",
+    "options": [
+      "tegory Illa",
+      "tegory Il",
+      "tegory tlle"
+    ],
+    "correct": 1,
+    "id": 225
+  },
+  {
+    "question": "= Question 17 (Multiple Choice) With regard to NDB procedures, \"homing\" can be used to fly (1) _ the station, while \"tracking\"",
+    "options": [
+      "e used to fly__ the station.",
+      "(1) to and from, (2) to",
+      "(1) to, (2) from",
+      "(1) from, (2) to"
+    ],
+    "correct": 1,
+    "id": 226
+  },
+  {
+    "question": "Which of the following is likely to affect ADF accuracy the most?",
+    "options": [
+      "larly during the day",
+      "h as VOR and ILS",
+      "Interference from other on-board equipme'"
+    ],
+    "correct": 1,
+    "id": 227
+  },
+  {
+    "question": "= Question 19 (Multiple Choice)",
+    "options": [
+      "With regard to the type of modulation, to identify an NDB station the procedure is to",
+      "use the ANT function in case of A1 modulation:",
+      "NDB stations are identified automatically in all types of modulation.",
+      "use the (normal) ADF function in case of A1 modulation."
+    ],
+    "correct": 1,
+    "id": 228
+  },
+  {
+    "question": "= Question 22 (Mutiple Choice)",
+    "options": [
+      "Which of the following is true for selecting the DME frequency of an a ILS/DM|",
+      "The DME frequency is paired with the localizer frequency so only the localiser frequency is set",
+      "The pilot has to insert the channel number and also the X or Y.",
+      "The DME frequency needs to be selected separately by the pilot"
+    ],
+    "correct": 1,
+    "id": 229
+  },
+  {
+    "question": "= Question 23 (Multiple Choice) if pilot wants to plot a bearing from a VOR station, he/she should take into account the magnetic",
+    "options": [
+      "variation.",
+      "t both the VOR and aircraft and take the average.",
+      "t the VOR.",
+      "t both the VOR and the aircraft location."
+    ],
+    "correct": 1,
+    "id": 230
+  },
+  {
+    "question": "= Question 28 (Multiple Choice) ring from the NDB (QTE), ignore any effects With the information given bel from convergence: Relative Bearing Indicator (fixed card): 322",
+    "options": [
+      "ompass Heading: 288",
+      "eviation: -3",
+      "Variation: 18°W",
+      "049"
+    ],
+    "correct": 2,
+    "id": 231
+  },
+  {
+    "question": "= Question 4 (Multiple Choice) What is the range of MF (Medium Frequency) waves?",
+    "options": [
+      "30 kHz",
+      "3 MHz",
+      "3.GHz"
+    ],
+    "correct": 1,
+    "id": 232
+  },
+  {
+    "question": "Which statement is correct regarding modulation?",
+    "options": [
+      "Information from a radio wave are separated du",
+      "Radio waves are transformed into a digital signal"
+    ],
+    "correct": 1,
+    "id": 233
+  },
+  {
+    "question": "Which measurement is carried out in order to determine the position of an aircraft in relation to the localiser beam on an ILS?",
+    "options": [
+      "The difference in depth between the 60 Hz modulation and the 190 Hz modulation",
+      "The difference in phase between the 60 Hz modulation and the 190 Hz modulation.",
+      "The difference in depth between the 90 Hz modulation and the 150 Hz modulation."
+    ],
+    "correct": 1,
+    "id": 234
+  },
+  {
+    "question": "= Question 3 (Multiple Choice) The effect of \"antenna shadowing” may occur in which of the following situation k signal from GPS while flying through a cloud layer.",
+    "options": [
+      "2. Weak signal from a VOR, combined with performing a standard turn or orbiting.",
+      "is correct, 2 is incorrect.",
+      "is incorrect, 2 is incorrect.",
+      "is correct, 2 is correct."
+    ],
+    "correct": 2,
+    "id": 235
+  },
+  {
+    "question": "‘= Question 1 (Multiple Choice) With a dipole antenna that is vertically mounted is used for RF transmissions, the receiving antenna has to be in the same...",
+    "options": [
+      "vertical alignment in order to receive the electrica field of the RF transmission in the vertical",
+      "plane.",
+      "horizontal alignment in order to receive the electrical field of the RF transmission in the vertical @",
+      "plane."
+    ],
+    "correct": 1,
+    "id": 236
+  },
+  {
+    "question": "= Question 3 (Multiple Choice)",
+    "options": [
+      "Refraction within ionospheric layers is utilized.",
+      "in the VLF band.",
+      "in the UHF band.",
+      "in the VHF band."
+    ],
+    "correct": 1,
+    "id": 237
+  },
+  {
+    "question": "= Question 5 (Multiple Choice) Polarisation refers to the...",
+    "options": [
+      "orientation of the plau cillation of the magnetic component of the electromagnetic wave.",
+      "orientation of the antenna to the south"
+    ],
+    "correct": 1,
+    "id": 238
+  },
+  {
+    "question": "Figure 3 ment IC ed for ILS final approach on RWY 16 using the back-beam of localiser RWY 34 (final approach course 343(M)), the crew expects wind from the right and approaching with a wind jon angle of +10° (WCA 10R). Which of the HS! displays from the annex shows the recommended setup?",
+    "options": [
+      "Figure 4",
+      "Figure",
+      "Figure 2"
+    ],
+    "correct": 0,
+    "id": 239
+  },
+  {
+    "question": "5 (Multiple Choice) In case of using an NDB as a Holding fix, if the aircraft is supposed to initiate a turn after overflying the fix, which of the following statements is correct?",
+    "options": [
+      "1. When approaching the NDB, the RBI should indicate 000",
+      "2. The turn can be initiated after the needle has swung around approximately 180.",
+      "is incorrect, 2 is incorrect",
+      "2 is correct"
+    ],
+    "correct": 1,
+    "id": 240
+  },
+  {
+    "question": "= Question 20 (Multiple Choice) Which of the following is correct regarding the ILS?",
+    "options": [
+      "The glide path transmitter is located 50 m to the right of the threshold",
+      "ll markers transmit at 90 MHz",
+      "The localiser part of the frequency band is shared with the DME"
+    ],
+    "correct": 1,
+    "id": 241
+  },
+  {
+    "question": "About the range of NDBs and the accuracy of bearings they provide, it can be said that generally at night",
+    "options": [
+      "| th 4 foe gs oe ak",
+      "the range decreases and the accuracy also decreases.",
+      "the range increases and the accuracy also increases.",
+      "the range decreases and the accuracy increases."
+    ],
+    "correct": 1,
+    "id": 242
+  },
+  {
+    "question": "= Question 10 (Multiple Choice) Multipath signals (coming from the same aircraft) at the ground VHF direction finder s which effect?",
+    "options": [
+      "They always result in the extinction of the signals at the ground VHF station.",
+      "tion can have",
+      "They increase the range at which the direction finder receives signals.",
+      "They usually result in a higher accurac"
+    ],
+    "correct": 1,
+    "id": 243
+  },
+  {
+    "question": "An aircraft is performing a DME arc procedure during des",
+    "options": [
+      "The DME indicates for Ground Speed (GS) and distance are:",
+      "\"GS\" equivalent to actual groundspeed, distance constant slant range",
+      "sing slant range",
+      "\"GS\" zero, distance as decreasing slant range"
+    ],
+    "correct": 1,
+    "id": 244
+  },
+  {
+    "question": "(See attachment IC-062-119) While proceeding on the ILS/DME approach shown in the annex, at approximately",
+    "options": [
+      "marker light and aural signal to are:",
+      "lue and a series of low-frequency -and-das!",
+      "white and a series of high-frequency “dots\"",
+      "1700 ft, the"
+    ],
+    "correct": 3,
+    "id": 245
+  },
+  {
+    "question": "= Question 23 (Multiple Choice) peration of an ILS, the loc signal strength of the 90 Hz and 150 Hz signal is...",
+    "options": [
+      "Regarding th",
+      "when the difference",
+      "150 Hz.",
+      "maximum."
+    ],
+    "correct": 1,
+    "id": 246
+  },
+  {
+    "question": "= Question 21 (Multiple Choice) AMLS (Microwave Landing System)...",
+    "options": [
+      "operates in the UHF band with 300 kHz frequency separation giving 100 available channels",
+      "operates in the SHF band with 150 kHz frequency separation giving 100 available channels.",
+      "operates in the VHF band with 150 kHz frequency separ available channels."
+    ],
+    "correct": 1,
+    "id": 247
+  },
+  {
+    "question": "An electrical device which converts electric power into radio waves, and vice versa, is referred to as",
+    "options": [
+      "lan:",
+      "modulator.",
+      "transponder.",
+      "HF filter"
+    ],
+    "correct": 1,
+    "id": 248
+  },
+  {
+    "question": "= Question 1 (Multiple Choice)",
+    "options": [
+      "ssky wave originates from",
+      "interference.",
+      "iffraction.",
+      "sorption."
+    ],
+    "correct": 1,
+    "id": 249
+  },
+  {
+    "question": "= Question 8 (Multiple Choice) Which of the following frequencies corresponds to a wavelength of 12 cm?",
+    "options": [
+      "2500 kHz.",
+      "3600 MHz"
+    ],
+    "correct": 1,
+    "id": 250
+  },
+  {
+    "question": "= Question 4 (Multiple Choice) Relating to a primary radar system, what type of aerials are used?",
+    "options": [
+      "irectional antenna for transmitting, and an omnidirectiona",
+      "One omnidirectional antenna both for transmitting and receiving."
+    ],
+    "correct": 1,
+    "id": 251
+  },
+  {
+    "question": "The azimuth transmitter of a Microwave Landing System (MLS) provides a horizontal approach zone",
+    "options": [
+      "of usually:",
+      "+ or - 20° of the runway centre-line",
+      "+ of - 25° of the runway centre-line",
+      "+ oF - 70° of the runway centre:"
+    ],
+    "correct": 1,
+    "id": 252
+  },
+  {
+    "question": "= Question 17 (Multiple Choice) An aircraft flying at FL 100 requit ther information about the destination airfield (elevation: 0 ft) from the co-located VORVATIS",
+    "options": [
+      "In ISA conditions, the maximum theoretical range at which it can be expected to obtain this",
+      "information, is",
+      "12.3 NM",
+      "158 NM"
+    ],
+    "correct": 2,
+    "id": 253
+  },
+  {
+    "question": "eive signals from a VOR The maximum theoretical range at which an aircraft at FL 230 may situated at mean sea level is...",
+    "options": [
+      "220 NM",
+      "[a Fash",
+      "171. NM.",
+      "198 NM."
+    ],
+    "correct": 1,
+    "id": 254
+  },
+  {
+    "question": "= Question 22 (Multiple Choice) Which of the following opti ectly orders the types of ILS markers",
+    "options": [
+      "from the lower to the higher aural frequen",
+      "1. Inner marker",
+      "2. Middle marker",
+      "8. Outer marker"
+    ],
+    "correct": 2,
+    "id": 255
+  },
+  {
+    "question": "Which of the following lists the major ground-based components of a Microwave Landing System?",
+    "options": [
+      "ombined azimuth and elevation transmitter, OME ®",
+      "Separate azimuth and elevation transmit"
+    ],
+    "correct": 1,
+    "id": 256
+  },
+  {
+    "question": "‘When identifying an NDB, the BFO...",
+    "options": [
+      "should be switched off with NON/A1A transmissions.",
+      "is automatically activated on modern aircraft, when necessary",
+      "needs to be manually switched on even in modem airc"
+    ],
+    "correct": 1,
+    "id": 257
+  },
+  {
+    "question": "= Question 26 (Multiple Choice) Ona ‘slaved\" RMI (automatically alig variation is 24W at the DR position",
+    "options": [
+      "020.",
+      "The true bearing is",
+      "ng at the tip of the needle is 300. Magnetic",
+      "1 is -2. Compass heading is"
+    ],
+    "correct": 2,
+    "id": 258
+  },
+  {
+    "question": "‘Question 25 (Multiple Choice) In case there are two or more ground direction finding stations within VHF range of an aircraft, what can be determined?",
+    "options": [
+      "The aircraft's altitude",
+      "The aircraft's distanc",
+      "The aircraft's heading"
+    ],
+    "correct": 1,
+    "id": 259
+  },
+  {
+    "question": "= Question 2 (Multiple Choice)",
+    "options": [
+      "ends because it has to pass around an impenetrable obstacle, it is called.",
+      "refraction.",
+      "interference.",
+      "reflection."
+    ],
+    "correct": 0,
+    "id": 260
+  },
+  {
+    "question": "= Question 1 (Multiple Choles)",
+    "options": [
+      "The frequency of a radio vith a wavelength of 3000",
+      "10 kHz.",
+      "300 kHz",
+      "30 kHz."
+    ],
+    "correct": 0,
+    "id": 261
+  },
+  {
+    "question": "= Question 4 (Multiple Choles) A radio signal can be classified by three symbols in agreement with the International Telecommunication Union (ITU) radio regulation, e.g. A1A Which of the following statements is correct?",
+    "options": [
+      "The third symbol indicates the nature of the signal modulating the main carrier.",
+      "The three symbols together indicate which device is transmitting on the carrer.",
+      "The second symbol indicates the nature of information to be transmitted."
+    ],
+    "correct": 2,
+    "id": 262
+  },
+  {
+    "question": "Sry PTt 033.0 = Question 22 (Mustiple Choice) Dry Operating Mass 33910 kg Traffic Load 7800 kg Trip Fuel 2060 kg Final Reserve Fuel 953 kg Alternate Fuel 1200 kg Contingency Fuel 5 % of Trip Fuel Which mass is correct!",
+    "options": [
+      "Take-off mass 43295 kg",
+      "Landing mass at destination 43863 kg",
+      "Landing mass",
+      "Take-off mass 45923 kg"
+    ],
+    "correct": 2,
+    "id": 263
+  },
+  {
+    "question": "‘302PM Fite Feb Sor PTt 033.0 After 38 min of flight the fuel indicators show the remaining fuel is 100 Ib. The total fuel on take-off was 160 Ib. The alternate fuel The fuel for taxi was 13 Ib. Final reserve fuel is estimated at 50 Ib # the fuel flow remains the same, how many minutes can be flown to destination with the remaining fuel?",
+    "options": [
+      "61 min",
+      "7 min",
+      "48 min"
+    ],
+    "correct": 2,
+    "id": 264
+  },
+  {
+    "question": "Sor 11 @ PTt 033.0 = Question 15 (Multiple Choice) Dry Operating Mass 34410 kg Traffic Load 7500 kg Final reserve fuel 963 kg Alternate fuel 1200 kg Contingency fuel 107 kg (not consumed)",
+    "options": [
+      "The Landing Mass at the Alternate will be:",
+      "41910 kg",
+      "44180 kg",
+      "42017 kg"
+    ],
+    "correct": 2,
+    "id": 265
+  },
+  {
+    "question": "Sor ‘302PM Fite Feb PTt 033.0 Coss: @ & = Question 14 (Multiple Choice) Trip Fuel 4 h 25 min Reserve Fuel 30% of Trip Fuel Start up and Taxi Fuel 45 kg Block Fue! 600 kg",
+    "options": [
+      "fter flying 3 h 15 min, the remaining ft",
+      "217 kg",
+      "153 kg",
+      "273 kg"
+    ],
+    "correct": 2,
+    "id": 266
+  },
+  {
+    "question": "‘302PM Fite Feb Sor PT1 033.05 e Which of the statements below, relating to the benefits of a computer fight pian, is correct?",
+    "options": [
+      "1. The computer can file the ATS fight plan.",
+      "2. Wind data used by the computer is always more up-to-date than that available to the pilot",
+      "1 is incorrect, 2 is incorrect",
+      "1 is incorrect, 2 is correct"
+    ],
+    "correct": 1,
+    "id": 267
+  },
+  {
+    "question": "PT? 033.05 = Question 12 (Multiple Choice) Certificated take-off mass 137000 kg Actual take-off mass 135000 kg. What is the wake turbulence category?",
+    "options": [
+      "Medium",
+      "Sor",
+      "Medium to heavy",
+      "Light to medium"
+    ],
+    "correct": 1,
+    "id": 268
+  },
+  {
+    "question": "‘302PM Fite Feb Sor PT1 033.04 = Question 11 (Multiple Choice) Distance 2500 NM GS Out 540 kt GS Home 470 kt",
+    "options": [
+      "lculate the time from the departure point to the PET:",
+      "167 min",
+      "145 min",
+      "34 min"
+    ],
+    "correct": 2,
+    "id": 269
+  },
+  {
+    "question": "Sor TBOZPM, Fr 18 Feb PTI 033.04 Cosas: @ & = Question 9 (Multiple Choles) Total Distance 6340 NM Safe Endurance 15h True Track 090 WW 270/100 TAS 400 kt he PSR 's:",
+    "options": [
+      "The distance from the departure point to",
+      "1885 NM",
+      "2464 NM",
+      "2536 NM"
+    ],
+    "correct": 1,
+    "id": 270
+  },
+  {
+    "question": "‘302PM Fite Feb Sor PT1 033.04 = Question 8 (Multiple Choles) Course A to B 088° (1) Distance 1250 NM Mean TAS 330 kt Mean W/V 340°/60 kt",
+    "options": [
+      "The time from A to the PET in minutes is",
+      "94 min",
+      "125 min",
+      "114 min"
+    ],
+    "correct": 2,
+    "id": 271
+  },
+  {
+    "question": "Sor PT1 033.04 = Question 7 (Multiple Choles) Distance 2200 NM True track 150° W/V 330/50 TAS 460 kt m the departure point to the PET:",
+    "options": [
+      "lculate the Distance (NM) and Time (min)",
+      "1000 NM, 174 mir",
+      "980 NM, 146 min",
+      "1110 NM, 176 min"
+    ],
+    "correct": 2,
+    "id": 272
+  },
+  {
+    "question": "020M Fis eb : oor Ooss1 @ & PT1 033.04 = Question 6 (Multiple Choies) Distance from WP 3 to WP 4 TAS out 430 kt TAS return 425 kt Tailwind out 30 kt Headwind return 40 kt",
+    "options": [
+      "The distance from WP <",
+      "373 NM",
+      "412 NM",
+      "401 NM"
+    ],
+    "correct": 2,
+    "id": 273
+  },
+  {
+    "question": "Sry ‘302PM Fite Feb PT1 033.04 1 @ @ = Question 5 (Multiple Choles) Total Distance Safe Enduranes True Track 0! WW 180/35 TAS 120 kt",
+    "options": [
+      "eparture poi",
+      "The distance of the PSR from th",
+      "211.NM",
+      "97 NM"
+    ],
+    "correct": 2,
+    "id": 274
+  },
+  {
+    "question": "‘3O1PM. Fria Feb Sry PT1 033.04 With regard to ICAO Annex 15, a NOTAM shall be originated and issued concerning the following information: 1. Unserviceability of location, destination or other instruction signs on the aerodrome movement area,",
+    "options": [
+      "2. Unserviceabilty of back-up and secondary systems, having a direct operational impact",
+      "1 is incorrect, 2 is incorrect",
+      "1 is correct, 2 is incorrect",
+      "1 is correct, 2 is correct"
+    ],
+    "correct": 2,
+    "id": 275
+  },
+  {
+    "question": "Sry PTI 033.04 Cosas: @ & = Question 2 (Multiple Choies) Total Distance 180 NM Safe Endurance 2h TAS 120 kt Ground Speed Out 135 kt Ground Speed Home 105 kt",
+    "options": [
+      "lculate the distance and time of the PSR from the departure point",
+      "83 NM, 46 min",
+      "66 NM,",
+      "54.NM, 27 min"
+    ],
+    "correct": 1,
+    "id": 276
+  },
+  {
+    "question": "The final-approach area contains a fix or facility that permits verification of the ILS GP-altimeter relationship; the outer marker or DME is usually used for this purpose.",
+    "options": [
+      "When passing the outer marker on an ILS approach, you can expect to be at,",
+      "30 NM from the threshold.",
+      "2.NM from the threshold.",
+      "4.NM from the threshold."
+    ],
+    "correct": 2,
+    "id": 277
+  },
+  {
+    "question": "f procedure description on an IFR approach chart for a VOR approach reads: \"When established continue with procedure and further descent\", when may the descent be commenced?",
+    "options": [
+      "s soon as the VOR indicator starts to move from full deflection.",
+      "s the VOR indicator is within half full-scale deflec",
+      "s soon the aircraft approaches the final approach point."
+    ],
+    "correct": 2,
+    "id": 278
+  },
+  {
+    "question": "= Question 26 (Mustiple Choice)",
+    "options": [
+      "ording ICAO Annex 10, state the VDF information precision referring to Ciass D:",
+      "urate to a range within + 10",
+      "urate to a range within 5",
+      "urate to less than Class C"
+    ],
+    "correct": 1,
+    "id": 279
+  },
+  {
+    "question": "= Question 18 (Multiple Choice)",
+    "options": [
+      "VDF range is aff",
+      "sky wave propagati",
+      "shoreline effect.",
+      "quadrantal error and power of the receiver."
+    ],
+    "correct": 1,
+    "id": 280
+  },
+  {
+    "question": "When fying overhead the outer marker during an ILS approach, the colour of the flashing",
+    "options": [
+      "e.",
+      "mber.",
+      "orange",
+      "magenta."
+    ],
+    "correct": 1,
+    "id": 281
+  },
+  {
+    "question": "= Question 16 (Multiple Choice) An aircraft is *homing’ to a beacon, maintaining a relative bearing of zero,",
+    "options": [
+      "With a decreasing magnetic heading, the aircraft is experiencing",
+      "rear drift",
+      "no drift",
+      "left drift"
+    ],
+    "correct": 1,
+    "id": 282
+  },
+  {
+    "question": "Regarding the glide path principle of operation in an ILS, the difference of 90 Hz and 1",
+    "options": [
+      "will,",
+      "increase with displacement above or below the glide path",
+      "increase with displacement only below the glid",
+      "increase with displacement only above the glide path."
+    ],
+    "correct": 1,
+    "id": 283
+  },
+  {
+    "question": "= Question 12 (Multiple Choice) What minimum level must be flown by an aircraft at a distance of 111 NM in order to contact the tower on R/T for a VDF bearing from an airport sited 169 ft above MSL?",
+    "options": [
+      "FL9O",
+      "FL45"
+    ],
+    "correct": 1,
+    "id": 284
+  },
+  {
+    "question": "= Question 10 (Mustiple Choice) An ILS produces...",
+    "options": [
+      "radiation pattern that is frequency modulated by a 90 Hz and a 150 Hz signal.",
+      "radiation pattern that is amplitude modulated by",
+      "radiation pattern that is amplitude modulated by a 50 Hz and a 400 Hz signal",
+      "radiation pattern that is frequency modulated by the VHF frequency of the ILS."
+    ],
+    "correct": 1,
+    "id": 285
+  },
+  {
+    "question": "= Question 8 (Multiple Choles)",
+    "options": [
+      "LS marker beacons transmit at a frequency",
+      "800 KHz",
+      "1230 Hz",
+      "90 MHz"
+    ],
+    "correct": 1,
+    "id": 286
+  },
+  {
+    "question": "Sor TBOZPM, Fr 18 Feb PT 033.0 Cosas: @ & = Question 21 (Multiple Choice) Trip Fuel 3h 36 min Reserve Fuel 30 % of Trip Start up & Taxi Fuel 12 kg Block Fuel 452 kg",
+    "options": [
+      "fter 3h flight time, the remaining fuel is:",
+      "69 kg",
+      "173 kg",
+      "176 kg"
+    ],
+    "correct": 2,
+    "id": 287
+  },
+  {
+    "question": "Sor PTt 033.0 = Question 18 (Multiple Choice) Planned Fuel: Trip 5h 25 min Reserve 30 % of Trip Start up and Taxi 12 kg Block 945 kg",
+    "options": [
+      "fter 4 h in flight the remaining fue",
+      "471 kg",
+      "253 kg",
+      "448 kg"
+    ],
+    "correct": 3,
+    "id": 288
+  },
+  {
+    "question": "‘302PM Fite Feb PTt 033.0 = Qvestion 16 (Mutiple Choice) Block Fuel 200 Ib Alternate Fuel 40 !b Final Reserve Fuel 50 Ib Taxi Fuel 10 Ib Remaining Fuel (after 36 min.) 110 lo With constant fuel flow and landing destination is: 28 min 9 min 16 min ith required reser",
+    "options": [
+      "e fuel, the",
+      "light time ren",
+      "maining to the",
+      "Sor"
+    ],
+    "correct": 2,
+    "id": 289
+  },
+  {
+    "question": "Sor PTt 033.0 = Question 17 (Multiple Choice) The planned fuel is: Trip fuel Sufficient for 04 h 24 min Reserve fuel 30% of planned Start up and Taxi fuel Block fuel 138 kg",
+    "options": [
+      "fter 3 h 18 min in flight, the remaining f",
+      "34 kg",
+      "61kg",
+      "47 kg"
+    ],
+    "correct": 3,
+    "id": 290
+  },
+  {
+    "question": "Airborne data that can be used by modem weather radar systems to detect Wind Shear (WS) include: 1. Doppler-shift in frequency from aerosol particles Doppler-shift in frequency from precipitation echos Pulse-fiattening in precipitation echos Comparison of inertial data and air data",
+    "options": [
+      "Use of different wavelengths",
+      "1 and 3",
+      "nd 5",
+      "2,3and5"
+    ],
+    "correct": 2,
+    "id": 291
+  },
+  {
+    "question": "= Question 2 (Multiple Choice) An Airborne Weather Radar (AWR) can be uss",
+    "options": [
+      "increase \"gain* to compare the radar image with the visual outside picture",
+      "hange \"range\" setting to estimate distance from significant visible clouds.",
+      "switching to “WX+T\" mode and use timed pulse measurements from significant terrain",
+      "structure."
+    ],
+    "correct": 0,
+    "id": 292
+  },
+  {
+    "question": "= Question 5 (Multiple Choice) When cruising at flight le Thunderstorms, best pract increase tit angle (tit UP) due reduce cluttered signals from ground surface.",
+    "options": [
+      "reduce tilt angle (tit DOWN) due \"look\" into compensate for the curvature of the earth's",
+      "surface at large distances.",
+      "increase tit angle (tit UP) due “loo! a crystals at high levels instead of",
+      "supercooled water for better reflect"
+    ],
+    "correct": 1,
+    "id": 293
+  },
+  {
+    "question": "= Question 7 (Multiple Choice) The tilt of an Airborne Weather Radar be pointed (1)__ when searching \\derstorms during",
+    "options": [
+      "i rovide best reflectivity, hese are found mainly",
+      "(1) upwards, (2) lower, (3)",
+      "(1) downwards, (2) higher, (3) below",
+      "(1) upwards, (2) higher, (3)"
+    ],
+    "correct": 1,
+    "id": 294
+  },
+  {
+    "question": "Relating to an Airborne Weather Radar that has a colour cathode display",
+    "options": [
+      "when the severity of rain and turbulence increases, the colour changes from.",
+      "yellow to orange to blue and magenta.",
+      "yellow to orange to red and magenta.",
+      "green to red to blue and magent"
+    ],
+    "correct": 1,
+    "id": 295
+  },
+  {
+    "question": "Relating to airborne weather radar systems, why are wavelengths of approximate! used?",
+    "options": [
+      "ud formations",
+      "To transmit at a higher PRF for incre:",
+      "3 cm usually",
+      "| To"
+    ],
+    "correct": 1,
+    "id": 296
+  },
+  {
+    "question": "‘When using the AWR in the mapping mode in polar areas, the risk increases to...",
+    "options": [
+      "underestimate distances because the cold water of the sea c 4 super-refraction.",
+      "receive false retums from aurora borealis (polar light).",
+      "of ice reflection."
+    ],
+    "correct": 1,
+    "id": 297
+  },
+  {
+    "question": "= Question 20 (Multiple Choice) Relating to a primary r determine?",
+    "options": [
+      "The target discrimination",
+      "The minimum range",
+      "technique, what d",
+      "ne pulse repetitio"
+    ],
+    "correct": 1,
+    "id": 298
+  },
+  {
+    "question": "= Question 2 (Multiple Choice) With regard to Airborne-Based Aug’ ion System (ABAS), to augment GN",
+    "options": [
+      "S-B",
+      "VOR/DME",
+      "EGNOS",
+      "which on-board sensor can"
+    ],
+    "correct": 1,
+    "id": 299
+  },
+  {
+    "question": "Arrange calculated by the GNSS receiver defines:",
+    "options": [
+      "faeries val",
+      "n ellipse with its centre at the receiver",
+      "sphere with its centre at the receiver,",
+      "n ellipse with its ce the satelite."
+    ],
+    "correct": 0,
+    "id": 300
+  },
+  {
+    "question": "= Question 4 (Multiple Choice) With regard to GBAS oper: ne ground station can support (1) __ within its Providing the aircraft with approach data, corrections and integrity information for GNSS satel",
+    "options": [
+      "view via a(2)__.",
+      "(1) amaximum of 100 aircraft subsy 3, (2) Satellite broadcast datalink.",
+      "(1) amaximum of 100 aircraft subsystems, (2) VHF data broadcast (VDB)",
+      "(1) all the aircraft subsystems, (2) Satellite broadcast datalink."
+    ],
+    "correct": 2,
+    "id": 301
+  },
+  {
+    "question": "= Question 7 (Multiple Choice) whic ents is c the Final Approe ent (FAS) of a GBAS The GBAS reference receivers send error correcton messages to the ground-based azimuth @ and elevation-guidanc",
+    "options": [
+      "The GBAS-equipped aircraft receives the approach-path guidance parameters from the GNSS ©",
+      "space segment",
+      "The GBAS ground faclity sends an error correction message to the ground-based azimuth @",
+      "nd glidepath-quid:"
+    ],
+    "correct": 1,
+    "id": 302
+  },
+  {
+    "question": "egment in the NAVSTAR/GPS Which answer lists all functions of the contro! 1. Monitoring of the constellation status",
+    "options": [
+      "2. Correction of orbital parameters",
+      "3. Navigation data uploading",
+      "1 and 2",
+      "1 and 3"
+    ],
+    "correct": 2,
+    "id": 303
+  },
+  {
+    "question": "= Question 9 (Multiple Choice) Which statement about the pr ntegrity monitoring used by Airborne-Based Augmentation Systems (ABAS) is correct?",
+    "options": [
+      ":d radio navigation support Fault Detection (FD) or Fault ®",
+      "etection and Exclusion (FDE).",
+      "S uses Ground-Based Augmentation System (GBAS) to broadcast differential corrections (0)",
+      "nd integrity messages in UHF frequent"
+    ],
+    "correct": 1,
+    "id": 304
+  },
+  {
+    "question": "= Question 11 (Multiple Choice)",
+    "options": [
+      "The European Geostationary Navigation Overlay System (EGNOS) is a form",
+      "Ground-Based Augmentation System (GBAS)",
+      "Local Area Differential System (LADGPS)",
+      "Local Area Augmentation System (LAA"
+    ],
+    "correct": 1,
+    "id": 305
+  },
+  {
+    "question": "= Question 12 (Multiple Choice) The type of clock used in NAVSTAR GPS satellites is...",
+    "options": [
+      "mechanical",
+      "pendulum",
+      "electric"
+    ],
+    "correct": 1,
+    "id": 306
+  },
+  {
+    "question": "= Question 13 (Multiple Choice) A Ground-Based Augmentation System (GBAS) station has a ty overage of plus/minus 35° up",
+    "options": [
+      "to (1) , and plus/minus 10° up to (2) either side of the final approach pat",
+      "(1) 5 NM, (2) 15 NM.",
+      "(1) 10 NM, (2) M",
+      "(1) 28 NM, (2)"
+    ],
+    "correct": 1,
+    "id": 307
+  },
+  {
+    "question": "= Question 14 (Multiple Choice) The time corrected by the clock correction parame i navigation message is...",
+    "options": [
+      "the coordinated time.",
+      "the receiver time.",
+      "the satellite time and receiver time."
+    ],
+    "correct": 1,
+    "id": 308
+  },
+  {
+    "question": "= Question 15 (Multiple Choice) For differential GPS positioning error correction with GBAS, the (1) ____ uses signals from at least (2)",
+    "options": [
+      "__ satellites to acquire the position error correction, which is relayed to (c",
+      "(1) the aircraft's GPS receiver, (2) four, (3) ground-bas",
+      "(1) ground-based receiver, (2) five, (3) the aircraft's GPS receive",
+      "(1) the aircraft's GPS receiver, (2) five, (3) ground-based receiver"
+    ],
+    "correct": 1,
+    "id": 309
+  },
+  {
+    "question": "= Question 14 (Multiple Choice) With regard to Airborne-Based Augmentation System (ABAS), ac monitoring that relies on information from the GNSS and from addi is referred to as: AAIM (Aircraft Autonomous Integrity Monitoring,",
+    "options": [
+      "Local Area Augmentation System (LAS)",
+      "GAIM (GNSS Autonomous Integrity Monitoring)",
+      "on method of integrity",
+      "l on-board sensors (like IRS)"
+    ],
+    "correct": 1,
+    "id": 310
+  },
+  {
+    "question": "Assume the case that a satellite used by a GNSS receiver is faulty. e received, the receiver's RAIM software.",
+    "options": [
+      "When the signals of 5 satellites, including the faulty one,",
+      "is able to detect one faulty signal and is able to identify the faulty one",
+      "rt fellites to function correctly.",
+      "is unable to identify the faulty one and is also unable to detect that one satelite is faulty."
+    ],
+    "correct": 1,
+    "id": 311
+  },
+  {
+    "question": "Which statement about Satellite Based Augmentation Systems (SBAS) is correct?",
+    "options": [
+      "The use of SBAS improves only the integrity of the position of the user, not the 2",
+      "The use of SBAS improves neither the integrity nor the accuracy of the position of t",
+      "The use of SBAS improves only the accuracy of the position of the user, not the integrity"
+    ],
+    "correct": 1,
+    "id": 312
+  },
+  {
+    "question": "Which of the following correctly ists the most significant factors affecting the accuracy of the Satellite-Assisted Navigation System (GNSS/GPS)?",
+    "options": [
+      "Satellite mutual interference, frequency drift, and satellite-to-ground time lag.",
+      "Satelite orbit displacement, atmospheric propagation, Doppler frequency shift and sat",
+      "lock error.",
+      "Satelite frequency failure, satelite ephemeris, and atmospheric propagation, multipath"
+    ],
+    "correct": 1,
+    "id": 313
+  },
+  {
+    "question": "= Question 4 (Multiple Choice) Which statement about Local Area Augmentation System (LAAS) of the NAVSTARYGPS system is correct?",
+    "options": [
+      "The accuracy of position fixes is independent of the distance between the aircraft recei",
+      "the LAAS ground ref",
+      "The further away the receiver is from a LAAS ground reference station, the more accurate is",
+      "the aircraft position fix."
+    ],
+    "correct": 2,
+    "id": 314
+  },
+  {
+    "question": "Which of the following is the reason for am a receiver being called a pseudo-range?",
+    "options": [
+      "The measured range is just a vague approximation.",
+      "The calculated range is based on an idealised orbit",
+      "The calculated range is based on the pseudo-random noi"
+    ],
+    "correct": 1,
+    "id": 315
+  },
+  {
+    "question": "‘Question 29 (Multiple Choice) During line-up on the runway for departure, with thunderstorms and strong convective clouds in the vicinity, the Weather Radar should be set up with.",
+    "options": [
+      "\"WX+T* mode should be activated to detected Clear Air Turbulence between the clouds.",
+      "\"Ground clutter suppression” should be switched OFF to only have weather echos on the",
+      "isplay.",
+      "\"Gain\" should be reduced to minimum to ensure t"
+    ],
+    "correct": 2,
+    "id": 316
+  },
+  {
+    "question": "= Question 21 (Multiple Choice) Using the tilt function of the Airborne Weather Radar (AWR), the vertical extend of a turbulence area",
+    "options": [
+      "n be estimated from.",
+      "the colour of the echos and the tilt \"DOWN\" angle until the echos disappear.",
+      "the distance of the echos and the tilt \"UP* angle until the echos disappear.",
+      "the width of the coloured areas indicated specific intensities of echos/turbulence."
+    ],
+    "correct": 2,
+    "id": 317
+  },
+  {
+    "question": "= Question 18 (Multiple Choice) The tit of an Airborne Weather Radar syst ut auto tit) be changed to a (1)__ setting when descending over terrain, because otherwise the scanning rang ed and significant",
+    "options": [
+      "(2)__may be displayed",
+      "(1) higher, (2) clear air turbulence (CAT)",
+      "(1) lower, (2) ground clutter",
+      "(1) lower, (2) clear air turbulence (CAT)"
+    ],
+    "correct": 2,
+    "id": 318
+  },
+  {
+    "question": "= Question 25 (Multiple Choice) An aircraft using Mode S can be uniquely interrc",
+    "options": [
+      "elve-pulse train, giving 412 possible co;",
+      "SPI p",
+      "long P2 pulse",
+      "ted and identified by using the.."
+    ],
+    "correct": 1,
+    "id": 319
+  },
+  {
+    "question": "= Question 17 (Multiple Choice) The principle of pulse technique is used by: Airborne Weather Radar Aerodrome Surface Movement Radar Aerodrome Surveillance (approz",
+    "options": [
+      "Secondary Surveillance Radar (",
+      "2 and 3 only",
+      "1, 2.and 4 only",
+      "2, 3 and 4 only"
+    ],
+    "correct": 2,
+    "id": 320
+  },
+  {
+    "question": "‘What is an advantage of the Secondary Surveillance Radar (SSR) system compared to a primary radar system?",
+    "options": [
+      "Side lobes do not occur during transmission",
+      "It provides a higher level of accuracy for bearings and distances",
+      "No special equipment is needed for the use of a SSR"
+    ],
+    "correct": 1,
+    "id": 321
+  },
+  {
+    "question": "= Question 19 (Multiple Choice) Which one of the following equipment operates on the int or / transponder principle?",
+    "options": [
+      "‘Aerodrome Surface Movement Radar (ASMR)",
+      "irborne Weather Radar (AWR)",
+      "Global Positioning System (GPS)"
+    ],
+    "correct": 1,
+    "id": 322
+  },
+  {
+    "question": "= Question 17 (Multiple Choice) When Mode C is selected on the aircraft's SSR transponder, the...",
+    "options": [
+      "height of the aircraft based on QFE is transmittec",
+      "height of the aircraft based on subscale setting is transmitted,"
+    ],
+    "correct": 1,
+    "id": 323
+  },
+  {
+    "question": "Which statement relating to t",
+    "options": [
+      "e stabi",
+      "They are stabil to the pitch and roll axis @",
+      "They are stabilized with respect to the pitch, roll, and yaw-axis ®",
+      "The pilot can cl 2 the axes of stat lem's stabilization selector switch @"
+    ],
+    "correct": 0,
+    "id": 324
+  },
+  {
+    "question": "= Question 6 (Multiple Choice) Using the tilt function of the Airborne Weather Radar (AWR), the vertical extend of a turbulence area can be estimated from...",
+    "options": [
+      "the colour of the echos and the tilt \"DOWN\" angle until the echos disappear,",
+      "the flight level or altitude of the aircraft and the distance of the echos.",
+      "the width of the coloured areas indicated specific intensities of echos/turbulence."
+    ],
+    "correct": 1,
+    "id": 325
+  },
+  {
+    "question": "9.06 AM Tue 18 Feb 100% am 062 PT2.062.0€ Cons @ & = Question 2 (Multiple Choice)",
+    "options": [
+      "out the visibility of NAVSTARYGPS satellites, it can be said th",
+      "It is greatest in the mid-latitudes",
+      "It is greatest at the equator",
+      "Itis the same at any time and any location"
+    ],
+    "correct": 1,
+    "id": 326
+  },
+  {
+    "question": "BO6AM Tue 18 Feb 062 PT2.062.06 = Question 1 (Multiple Choice) Which of the following statements is o« ard © satellites (that transmit the corrections to the users) of a Satellite Based Augmentation System (SBAS)?",
+    "options": [
+      "These satellites are geostationary and determine the corrections independently from a ground @",
+      "station network",
+      "These polar orbiting satellites can also be used as navigation satellites to which pseudo- ©",
+      "ranges can be measured."
+    ],
+    "correct": 2,
+    "id": 327
+  },
+  {
+    "question": "06M Tue 18 Feb “100% am 062 PT2.062.0€ Cons @ & = Question 4 (Multiple Choice) ‘When comparing a SBAS (Satellte-Based Augmentation System) with a GBAS (Ground-Based",
+    "options": [
+      "ugmentation System), it can be stated that.",
+      "the dilution of precision of an SBAS is much smaller than those of a GBAS.",
+      "n SBAS enables precision approaches at a higher final approach altitude.",
+      "n SBAS does not need ground static for the pseudo: Corrections."
+    ],
+    "correct": 1,
+    "id": 328
+  },
+  {
+    "question": "SO7AM Tue 18 Feb 100% 062 PT2 062.06 Cons @ & When using SBAS, in case of a GPS malfunction the users will be alerted by broadcasting data from",
+    "options": [
+      "geostationary satellites within.",
+      "0.6 seconds.",
+      "60 seconds.",
+      "6 minutes."
+    ],
+    "correct": 1,
+    "id": 329
+  },
+  {
+    "question": "SO7AM Tue 18 Feb 100% 062 PT2 062.06 O sO & Regarding determining GNSS positior",
+    "options": [
+      "The DOP has to be more than 6 for position fixing in en.",
+      "There is no advantage in combining GPS and INS.",
+      "GPS can be used only for approach guidance, but not for enroute navigation",
+      "Resut"
+    ],
+    "correct": 1,
+    "id": 330
+  },
+  {
+    "question": "SLO7AM Tue 18 Feb 100% 062 PT2 062.06 O so &",
+    "options": [
+      "The Doppler frequency shift of the received NAVSTAR/GPS carer frequency may be used to",
+      "orrect the calculated position for a change in receiver clock error.",
+      "orrect the calculated position for frequency shifts",
+      "lculate the height of the aircraft more accur"
+    ],
+    "correct": 1,
+    "id": 331
+  },
+  {
+    "question": "SO7AM Tue 18 Feb 100% 062 PT2 062.06 003035 @ & = Question 6 (Multiple Cholos) Which of the following is involved in the differential technique (D-GPS) of the NAVSTAR/GPS system?",
+    "options": [
+      "Receivers from various manufacturers are operated in parallel to reduce the characteristic ®",
+      "receiver noise error",
+      "Fixed ground stations compute position errors and transmit correction data to a suitable",
+      "Signals from satellites are received by two antennas located at a fixed distance apart. This"
+    ],
+    "correct": 1,
+    "id": 332
+  },
+  {
+    "question": "SO7AM Tue 18 Feb 100% 062 PT2 062.06 Cons @ & For a GNSS receiver's RAIM function to operate property the range measurements of at least 4 satelites has to be crosschecked by positior measurements from other board systems.",
+    "options": [
+      "the position calculations from 2 measurements each using 4 different satelites have to be",
+      "veraged.",
+      "the consistency of range measurements of at least 6 satellites has to be checked for Fault",
+      "etection and Exclusion (FDE)."
+    ],
+    "correct": 0,
+    "id": 333
+  },
+  {
+    "question": "= Question 15 (Multiple Choice)",
+    "options": [
+      "Regarding determining GNSS position",
+      "The DOP has to be more than 6 for position fixing in en-route navigation",
+      "GPS can be used only for approach guidance, but not for enroute navigatior",
+      "There is no advantage in combining GPS and INS."
+    ],
+    "correct": 1,
+    "id": 334
+  },
+  {
+    "question": "= Question 14 (Multiple Choice)",
+    "options": [
+      "The time corrected by the clock correction parameters in the navigation message is,",
+      "the satellite time and receiver time",
+      "the receiver time.",
+      "oordinated time."
+    ],
+    "correct": 0,
+    "id": 335
+  },
+  {
+    "question": "With regard to GNSS receivers, the accuracy resulting from geometric dilution of precision (GDOP)...",
+    "options": [
+      "is good when receiving signals from satellites in approximately the same direction with smal",
+      "ngle of intersection of the signal paths.",
+      "sce",
+      "Is poor when receiving signals from satellites in approximately the same direction with small"
+    ],
+    "correct": 1,
+    "id": 336
+  },
+  {
+    "question": "‘Question 12 (Multiple Choice) With regard to the L1/L2 frequencies used by NAVSTARYGPS, which of the following statements is orrect?",
+    "options": [
+      "1. Standard Positioning Service (SPS, C/A) used L1 frequency only.",
+      "2. L1 and L2 frequencies are used for Precision Positioning Servic",
+      "is incorrect, 2 is correct.",
+      "is incorrect, 2 is incorrect."
+    ],
+    "correct": 1,
+    "id": 337
+  },
+  {
+    "question": "= Question 11 (Multiple Choice) Which statement about the principle of integrity monitoring used by Airborne-Based Augmentation ‘Systems (ABAS) is correct?",
+    "options": [
+      "S uses Satellite-Based Augmentation System (SBAS) to broadcast differential corrections",
+      "nd integrity messages in VHF frequencies.",
+      "jie nes Whe rockers ange lees creme Fata Detacicn 1) Cob a Deteriog ood",
+      "S uses Ground-Based Augmentation System (GBAS) to broadcast differential corrections"
+    ],
+    "correct": 1,
+    "id": 338
+  },
+  {
+    "question": "= Question 9 (Multiple Choice) Assume the case that a satellite used by a GNSS receiver is faulty and that the GDOP (Geometric Dilution Of Precision) has a relatively low value. ‘When the signals of 6 satellites, including the faulty one, are received, the receiver's RAIM software...",
+    "options": [
+      "is unable to identify the faulty one and is also unable to detect that one satellite is faulty. ®",
+      "is able to detect that one of the satellites is faulty and is able to identify and isolate the",
+      "will not work because the software needs at least 9 satellites to function correctly.",
+      "is able to detect that one of the satellites is faulty but is unable to identify the faulty one."
+    ],
+    "correct": 1,
+    "id": 339
+  },
+  {
+    "question": "‘= Question 6 (Multiple Choice) Data from GBAS defining the Final A\\",
+    "options": [
+      "Position correction and (2)__.",
+      "(1) UHF, (2) clock error correction informatio",
+      "(1) UHF, (2) information about dilution of pre:",
+      "(1) SHF, (2) correction information about ionospheric"
+    ],
+    "correct": 1,
+    "id": 340
+  },
+  {
+    "question": "062 PT2.062.03 = Question 16 (Multiple Choice) During line-up on the runway for departure, with thunderstorms and strong convective clouds in the vicinity, the Weather Radar should be set up with.",
+    "options": [
+      "\"Gain\" should be reduced to minimum to ensure that all possible returns are displayed.",
+      "\"WX+T* mode should be activated to detected Clear Air Turbulence between the clouds.",
+      "“Ground clutter suppression\" should be switched OFF to only have weather echos on the",
+      "isplay."
+    ],
+    "correct": 2,
+    "id": 341
+  },
+  {
+    "question": "0806. Tue 18 Feb 062 PT2 062.06 = Question $ (Multiple Choice) The parameters of the model of the ined in the navigati NAVSTARVGPS satelite.",
+    "options": [
+      "This enables.",
+      "the receiver to use data from all 3s in the constellation simultaneously,",
+      "the receiver to select the satellites with the best geometric dilution of precision.",
+      "the authorised users to work on the frequencies L1 and L2."
+    ],
+    "correct": 2,
+    "id": 342
+  },
+  {
+    "question": "0807 Tus 18 Feb > a 00% me 062 PT2.062.0€ Cons @ & Which of the following statements correctly describes the term Pseudo Random Noise (PRN) of the NAVSTARVGPS system?",
+    "options": [
+      "PRN means the influence of atmospheric disturbances that affect the signals transmitted by",
+      "the satellites,",
+      "PRN describes the continuous electro-magnetic ‘ound noise that exists in sp:",
+      "n be heard when receiving signals from a satelite."
+    ],
+    "correct": 2,
+    "id": 343
+  },
+  {
+    "question": "0807 Tus 18 Feb 062 PT2 062.06 A position line in a Satellite-Assisted Navi ystem (GNSS) is obtained by. measurement of distance 1 bearing from the aircraft's receiver to the satelite.",
+    "options": [
+      "timing the period that is taken for an aircraft's transm",
+      "sion to reach the respective satellite",
+      "e aircraft's receiver measuring the phase angle of the signal received from a satellite in a",
+      "known position."
+    ],
+    "correct": 1,
+    "id": 344
+  },
+  {
+    "question": "0807 Tus 18 Feb 062 PT2 062.06",
+    "options": [
+      "UTC parameters in the navigation message determine the diffe",
+      "Local time and UTC",
+      "GMT and UTC.",
+      "GPS time and lo"
+    ],
+    "correct": 0,
+    "id": 345
+  },
+  {
+    "question": "0807 Tus 18 Feb 062 PT2 062.06 ‘Question 10 (Multiple Choice) The RAIM function used by GNSS receivers enables use of (1)__ range measurements to (2)_",
+    "options": [
+      "lculated from the minimum number of satellites required to provide a 3D fix.",
+      "(1) three, (2) enhance precision of the position",
+      "(1) minimum, (2) enhance precision of the position",
+      "(1) four, (2) verify the positi"
+    ],
+    "correct": 1,
+    "id": 346
+  },
+  {
+    "question": "0807 Tus 18 Feb 062 PT2 062.06 ‘Question 12 (Multiple Choice) The different segments of the NAVSTAR/GPS system are the...",
+    "options": [
+      "tomic clock, control, and transponde",
+      "ontrol station and monito",
+      "ntenna, receiver, and spac"
+    ],
+    "correct": 1,
+    "id": 347
+  },
+  {
+    "question": "0807 Tus 18 Feb 062 PT2 062.06 = Question 15 (Multiple Choice) Aircraft Autonomous Inte o sed Augmentation System",
+    "options": [
+      "which ..",
+      "only relies on information from additional on-board sensors.",
+      "only relies on GNSS informatic",
+      "is self-contained and works without any equipment located outside the aircraft."
+    ],
+    "correct": 1,
+    "id": 348
+  },
+  {
+    "question": "= Question 17 (Multiple Choice) According Definition from Annex I to Part-FCL with regard to linear and angular laterally guided operations during approach phases of fight, which of the following statements is correct?",
+    "options": [
+      "‘Angular guidance means instrument approach operation in which the maximum tolerable",
+      "error/deviation from the planned track is expressed in terms of deflection of the needles on the ©",
+      "ourse Deviation Indicator (CD)) or equivalent display in the cockpit.",
+      "Linear guidance means instrument approach operation in which the maximum tolerable"
+    ],
+    "correct": 1,
+    "id": 349
+  },
+  {
+    "question": "= Question 19 (Multiple Choice) In case an aeroplane following a procedure requir message with aural warning appears saying: “NAV ACCUR DOWNGRAD\". This means Navigational sources have been lost, leaving Estimated Position Error (EPE) undefined.",
+    "options": [
+      "‘AAIM function is activated to re-acquire the prescribed navigation accuracy required by the",
+      "procedure.",
+      "RAIM function is activated to re-acquire the prescribed navigation accuracy re",
+      "procedure,"
+    ],
+    "correct": 3,
+    "id": 350
+  },
+  {
+    "question": "= Question 20 (Multiple Choice) A certain number of independent and service: In Systems (LANs) are",
+    "options": [
+      "required for operation in the RNAV 10 airspace.",
+      "The minimum number of equipment required includes:",
+      "one LRNS using input from VOR/DME or DME/DME RNAV.",
+      "two LRNSs using input from VOR/DME or DME/DME RNAV."
+    ],
+    "correct": 2,
+    "id": 351
+  },
+  {
+    "question": "= Question 22 (Multiple Choice) According ICAO Doc 93 defined by radius, arc length, and fix, is referred to as:",
+    "options": [
+      "Fix-radius Transition (FRT",
+      "terminal or approach procedure",
+      "Radius leg (RL)",
+      "Fly-by (FB) turn"
+    ],
+    "correct": 1,
+    "id": 352
+  },
+  {
+    "question": "‘Why may an aircraft that is approved for a RNP or RNAV specification with a stringent accuracy requirement, NOT automatically be approved another navigation specification that has a less stringent accuracy requirement?",
+    "options": [
+      "ecause there is only a limited number of aircraft permitted for certain navigation specification",
+      "t a time.",
+      "ecause monitoring and indication systems may not be suitable for that type of specification.",
+      "ecause operation is only permitted for one type of specification"
+    ],
+    "correct": 2,
+    "id": 353
+  },
+  {
+    "question": "= Question 25 (Multiple Choice) With regard to PBN navigation, an advanced navigation system like a FMS will evaluate an intemal “Flight Management (FM) position* and an “Estimated Position Error (EPE) This is done by. FMS position is adjusted to the IRS position, with the difference resulting in the EPE.",
+    "options": [
+      "In case of single FMS operation, comparing of calculated positions is not possible, thus",
+      "making evaluation of EPE impossible",
+      "In case of dual FMS operation, FMS positions will be c",
+      "the EPE"
+    ],
+    "correct": 1,
+    "id": 354
+  },
+  {
+    "question": "= Question 26 (Multiple Choice)",
+    "options": [
+      "ording ICAO Doc 9613, the components for the application of PBN include:",
+      "lateral performance, vertical performance, ATS and ATM and Communicatio",
+      "navaid performance, navigation specification, t type",
+      "irspace concept, navigation infrastructure, navigation application"
+    ],
+    "correct": 0,
+    "id": 355
+  },
+  {
+    "question": "In case an aeroplane following a procedure requiring (any) navigation accuracy of RNP 1, with the Navigation Display (ND) displaying: “RNP 1.00 / ANP 0.10\" in green colour. This means: ‘The current (actual) navigation performance with 0.10 is better than the required performance @ 1.00. Green colour signals that the actual navigation performance is less the required limits",
+    "options": [
+      "Required Navigation performance is satisfied, because the aircraft is less than 0.10 NM off-",
+      "track,",
+      "‘The current (actual) navigation performance is better than the required performance factor",
+      "of 0.05."
+    ],
+    "correct": 3,
+    "id": 356
+  },
+  {
+    "question": "= Question 28 (Multiple Choice} In case an aeroplane following a procedure requiring (¢ gation accuracy of RNP 1, with the Navigation Display (ND) displaying “RNP 1.00 / ANP 0.10\" in green colour. This means Green colour signals that the actual navigation performance is less the required limits. ® ‘The current (actual) navigation performance with 0.10 is better than the required performance",
+    "options": [
+      "The current (actual) navigation performance is better than the required performance by a factor @",
+      "of 0.05.",
+      "Required Navigation performance is satisfied, because the aircraft is less than 0.10 NM off @)",
+      "track,"
+    ],
+    "correct": 2,
+    "id": 357
+  },
+  {
+    "question": "= Question 26 (Multiple Choice) With regard to PBN, a navigation specification suitable for all phast",
+    "options": [
+      "nd final approach, is:",
+      "RNAV 10",
+      "RNP 2",
+      "RNP 4"
+    ],
+    "correct": 1,
+    "id": 358
+  },
+  {
+    "question": "‘Question 25 (Multiple Choice)",
+    "options": [
+      "In the approach phases of flight, PBN",
+      "ommodates only linear laterally guided",
+      "oes not accommodate any laterally guided operations.",
+      "ommodates only angular laterally guided operations"
+    ],
+    "correct": 1,
+    "id": 359
+  },
+  {
+    "question": "= Question 2¢ (Multiple Choice) Regarding ICAO Doc 9613 for PBN operations, which statement about use of “ly-over\" and \"fly-by\"- waypoints is correct?",
+    "options": [
+      "fly-by’-turns will only be used when there is no t for repeatable paths.",
+      "“ly-by* and “fly-over\"-turns both can be used with RNP flight tracks.",
+      "“lly-over\"-turns can be used with RNP flight tracks, * fly-by” turn is not compatible with RNP",
+      "fight tracks."
+    ],
+    "correct": 1,
+    "id": 360
+  },
+  {
+    "question": "According ICAO Doc 9613, Flight Technic r (FTE),",
+    "options": [
+      "is considered as a radial error so that on-board performe C d alerting is",
+      "provided in all directions.",
+      "occurs when the path defined in the RNAV system does not correspond to the desired path.",
+      "refers to the difference between the aircratt's estimated position and actual positior"
+    ],
+    "correct": 1,
+    "id": 361
+  },
+  {
+    "question": "the ability of a system to provide timely warnings to users when the system should not be used for navigation.",
+    "options": [
+      "the capability of the total system to perform its function without non-scheduled interruptions",
+      "uring the intended operation.",
+      "s the portion of time (percentage annually) during which reliable navigation information is",
+      "presented to the crew."
+    ],
+    "correct": 0,
+    "id": 362
+  },
+  {
+    "question": "= Question 19 (Multiple Choice) With regard to PBN concept, which of the following statements is corre’ 1. In the approach phases of flight, PBN accommodates linear laterally guided operations.",
+    "options": [
+      "2. In the approach phases of fight, PBN accommodates angular laterally guided operations.",
+      "is incorrect, 2 is incorrect",
+      "1 is incorrect, 2 is co!",
+      "Result"
+    ],
+    "correct": 1,
+    "id": 363
+  },
+  {
+    "question": "= Question 17 (Multiple Choice} In case an aeroplane following a procedure requiring (any) navigation accuracy of RNP 1, with the Navigation Display (ND) displaying “RNP 1.00 / ANP 1.23\" in amber colour. This means ‘The current (actual) navigation performance is better than the required performance by a factor @ of 1.23.",
+    "options": [
+      "mber colour signals that the actual navigation performance is within the required limits. ®",
+      "‘The current (actual) navigation performance with 1.23 is lower than the required performance",
+      "1.00.",
+      "Required Navigation performance is satisfied, because the aircraft is less than 1 NM off-track."
+    ],
+    "correct": 2,
+    "id": 364
+  },
+  {
+    "question": "= Question 16 (Multiple Choice} With regard to PBN n dvanced navigation system like a FMS will evaluate an internal “Flight Management (FM) position\" and an “Estimated Position Error (EPE)’ This is done by. In case of dual FMS s wil be compared, with the difference resulting in @ the EPE In case of single FMS operation, comparing of cal positions is not possible, thus ©",
+    "options": [
+      "making evaluation of EPE impossible.",
+      "FMS position is adjusted to the IRS position, with the difference resulting in the EPE. ®",
+      "‘several sources will be used by FMS, and, depending on their expected accuracies, these",
+      "position data are compared with the FM position. te &"
+    ],
+    "correct": 2,
+    "id": 365
+  },
+  {
+    "question": "0804 Tue 18 Feb ‘Question 26 (Multiple Choice) Regarding PBN operations, which statement about “fly-by” and “fly-over’-waypoints is correct?",
+    "options": [
+      "1. At “fly-by* waypoints, turn is commenced prior to reaching the waypoint.",
+      "2. At “fly-over* waypoints, tum is commenced when overhead the waypoint.",
+      "is incorrect, 2 is correct.",
+      "is incorrect, 2 is incorrect."
+    ],
+    "correct": 2,
+    "id": 366
+  },
+  {
+    "question": "0804 Tue 18 Feb = Question 25 (Multiple Choice) With regard to PBN, which statement about Path Definition Error (PDE) is correct?",
+    "options": [
+      "1. PDE depends on the database integrity and functional requirements on the defined path.",
+      "2. PDE is considered negligible.",
+      "is incorrect, 2 is incorrect.",
+      "is correct, 2 is incorrect."
+    ],
+    "correct": 2,
+    "id": 367
+  },
+  {
+    "question": ".0BAM Tue 18 Feb 062 PT30 = Question 29 (Multicle Choice) For PBN operations on a route for which RNP 10 is required navigation applications), the ground-based NAVAID infrastru DME/DME nic and remote continental lure compo! ents require:",
+    "options": [
+      "“100% am",
+      "sO &",
+      "VOR/DME",
+      "VOR/NDB"
+    ],
+    "correct": 1,
+    "id": 368
+  },
+  {
+    "question": "SO7AM Tue 18 Feb 7 100% am 062 PT3 062.0 Cons @ & = Question 21 (Multiple Choice) With regard to PBN, what navigation error(s) of an on-board system can be monitored by the flight crew?",
+    "options": [
+      "TSE (Total System Error) and PDE (Path Deviation Error)",
+      "NSE (Navigation System Error) and FTE (Flight Technical &",
+      "FTE (Flight Technical Error) only"
+    ],
+    "correct": 1,
+    "id": 369
+  },
+  {
+    "question": "SO7AM Tue 18 Feb PTs = Question 19 (Multiple Choice) Basic functional requirements of RNAV 4 cifications include co 1. Lateral deviation 2. Distance/bearing to the active (TO) waypoint 3. Display/distance and bearing from the previous (FROM) waypoint 4, Groundspeedtime to the active (TO) waypoint 6. Failure 1,2, 4and5.",
+    "options": [
+      "3, 4 and 5,",
+      "is indication of:",
+      "100% am",
+      "sO &"
+    ],
+    "correct": 2,
+    "id": 370
+  },
+  {
+    "question": "GO7AM Tue 18 Feb = Question 16 (Multiple Choice) According ICAO Doc 9613, Path Definition Error (PDE)...",
+    "options": [
+      "is a Gaussian distribution with a standard deviation equal to the root sum square (RSS) of the",
+      "standard deviations of all contributing errors.",
+      "refers to the difference between the aircraft's estimated position and actual positior",
+      "relates to the air crew or autopilot's ability to follow the defined path or track, including any"
+    ],
+    "correct": 2,
+    "id": 371
+  },
+  {
+    "question": "SO7AM Tue 18 Feb 100% am 062 PT3 062.0 Ocx03 @ & According ICAO Doc 9316, a form of fixed radius path (FRP) intended to be used with en-route procedures, which falls upon the RNP system to create the fixed radius turn between to route segments, is referred to as:",
+    "options": [
+      "Radius leg (RL)",
+      "Radius to fix (RF) leg",
+      "Fly-by (FB) turn",
+      "Result"
+    ],
+    "correct": 1,
+    "id": 372
+  },
+  {
+    "question": "SO7AM Tue 18 Feb 100% a 062 P73 062.0 S033 @ & = Question 25 (Multiple Choice) With regard to Required Navigation Performance (RNP) operations, area navigation includes",
+    "options": [
+      "requirements for.",
+      "performance monitoring and alerting by ATC.",
+      "satelite performance monitoring and alerting.",
+      "ground-based performance monitoring and alerti"
+    ],
+    "correct": 1,
+    "id": 373
+  },
+  {
+    "question": "SO7AM Tue 18 Feb “100% am 062 PT3 062.0; 03035 @ & ‘Question 27 (Multiple Choice) With regard to PBN operation, which statements about the Estimated Position Error (EPE) is orrect?",
+    "options": [
+      "1. EPE is a measure for accuracy of the FMS position by applying specific validations on the",
+      "vailable navigation inputs.",
+      "2. EPE is calculated using statistical models of position error probabilities.",
+      "is incorrect, 2 is incorrect."
+    ],
+    "correct": 2,
+    "id": 374
+  },
+  {
+    "question": "= Question 28 (Multiple Choice) nd-based NAVAID infrastructure n sensors: VOR/DME, DME/DME, For PBN operations on a route for which RNP 5 is required, the gr components require input from ___ of the following types of pos",
+    "options": [
+      "INS or IRS, GNSS.",
+      "seston as eames",
+      "ll",
+      "t least 2"
+    ],
+    "correct": 1,
+    "id": 375
+  },
+  {
+    "question": "= Question 22 (Multiple Choice) Regarding ICAO Doc 9613 for PBN operations f “fly-over\" and “fly-by’- waypoints is correct?",
+    "options": [
+      "“ly-by* and “fly-over\"-turns both can be used with RNP flight tracks.",
+      "“fly-over\"-turns can be used with RNP flight tracks, * fly-by\" tum is not compatit",
+      "flight tracks.",
+      "“fy-by*-tums will only be used when there is no requirement for repeatable paths."
+    ],
+    "correct": 1,
+    "id": 376
+  },
+  {
+    "question": "= Question 20 (Multiple Choice) ARINC 424 path terminators are described by a (1) __, which defines a specific type of flight path along a segment of a procedure and a specifi of termination of that flight path. They are assigned to (2)___ in an airborne navigation database. 2 a",
+    "options": [
+      "ode, (2) SID, proach prc",
+      "(1) 2-letter code, (2) all RNAV, SID, STAR and approach procedure seg!",
+      "(1) 3-letter code, (2) all RNAV, SID, STAR and approach procedure segments",
+      "(1) 3-letter code, (2) RNAV approach procedure segments."
+    ],
+    "correct": 1,
+    "id": 377
+  },
+  {
+    "question": "= Question 23 (Multiple Choice) Classified as 3D Approach Operations are: RNP1 ILS PAR RNP APCH (GNSS and baro VNAV) Gis",
+    "options": [
+      "RNP APCH (SBAS)",
+      "1,3and5,",
+      "2, 4,5 and 6",
+      "1,4 and 6."
+    ],
+    "correct": 2,
+    "id": 378
+  },
+  {
+    "question": "= Question 26 (Multiple Choice) In case an aeroplane following a procedure requiring (any) n Navigation Display (ND) displaying: “RNP 1.00 / ANP 1.23\" in amber colour. This means:",
+    "options": [
+      "Required Navigation performance is satisfied, because the aircraft is less than 1 NM off-track.",
+      "12)",
+      "The current (actual) navigation performance is better than the required performance by a factor @",
+      "of 1.23."
+    ],
+    "correct": 2,
+    "id": 379
+  },
+  {
+    "question": "= Question 17 (Multiple Choice) With regard to PBN operations, RNAV 10 and RNP 4 can be used for the following phases of fight: 1. Oceanic/remote phase",
+    "options": [
+      "2. Arrival",
+      "3. Departure",
+      "2and 3 only",
+      "1 and 2 only"
+    ],
+    "correct": 1,
+    "id": 380
+  },
+  {
+    "question": "= Question 16 (Multiple Choice) With regard to RNAV or RNP operations, which of the following statement 1. RNAV specifications include the requirement for ground-based performance monitoring and alerting,",
+    "options": [
+      "2. RNP specifications include the requirement for on-board performance monitoring and alerting,",
+      "is correct, 2 is incorrect.",
+      "is incorrect, 2 is incorrect.",
+      "1 is correct, 2 is correct."
+    ],
+    "correct": 1,
+    "id": 381
+  },
+  {
+    "question": "With regard to PBN concept, \"availability’ can be understood as: the capability of the total system to perform its function without non-scheduled interruptions",
+    "options": [
+      "uring the intended operatior",
+      "the ability of a system to provide timely warnings to users when the system should not be",
+      "used for navigation.",
+      "the degree of conformance betwe"
+    ],
+    "correct": 2,
+    "id": 382
+  },
+  {
+    "question": "0807 Tus 18 Feb 062 PT30 ‘Question 17 (Multiple Choice) With regard to PBN concept, “accuracy” can be understood as: the ability of a system to provide timely warnings to users when the system should not be used for navigati",
+    "options": [
+      "s the portion of time (percentage annually) during which reliable navigation information is",
+      "presented to the crew.",
+      "the capability of the total system to perform its function without non-scheduled interruptions",
+      "uring the intended operatior"
+    ],
+    "correct": 1,
+    "id": 383
+  },
+  {
+    "question": "= Question 20 (Multiple Choice) ATC informs to expect RNP Approach (RNP APCH) Runway 09. In case one waypoint of the RNP APCH is missing in the navigation database, the recommended action should be: manually update the RNP APCH route retrieved from the on-board navigation database to conform to the charted procedure.",
+    "options": [
+      "to continue approach procedure, because RNP APCH waypoints may be omitted in",
+      "ordance with ATC clearance.",
+      "to create a new RNP APCH to the on-board navigation database taking into account al",
+      "waypoints from the charted procedure."
+    ],
+    "correct": 1,
+    "id": 384
+  },
+  {
+    "question": "= Question 21 (Multiple Choice) With regard to PBN, RNP systems supporting \"RF-leg\" type provide the same ability to conform to the track-keeping accuracy during the turn as in the straight line segments by...",
+    "options": [
+      "sary level of accuracy during the turn.",
+      "using the displayed distance from an ARC waypoint to provide the necessary level of guidance @",
+      "uring the tun.",
+      "ommencing the turn in a pre-calculated distance from the fix to initiate the fly-by manoeuvre. ©"
+    ],
+    "correct": 1,
+    "id": 385
+  },
+  {
+    "question": "In case an aeroplane following a procedure requiring tion accuracy of RNP \"xX\", a message with aural warning appears saying: “NAV ACCUR DOWNGRAD*. This means RAIM function is activated to re-acquire the prescribed navigation accuracy required by the procedure.",
+    "options": [
+      "‘AAIM function is activated to re-acquire the prescribed navigation accuracy required by the",
+      "procedure.",
+      "een lost, leaving Estimated Position Error (EPE) undefined.",
+      "Navigational sources have t"
+    ],
+    "correct": 2,
+    "id": 386
+  },
+  {
+    "question": "With regard to PBN concept, *continuity* can be understood as: ability of a system to provide timely warnings to users when the s ould not be",
+    "options": [
+      "used for navigation.",
+      "s the portion of time (percentage annually) during which reliable navigation information is",
+      "presented to the crew.",
+      "the degree of conformance between the estimated, measured or desired position."
+    ],
+    "correct": 1,
+    "id": 387
+  }
+]
