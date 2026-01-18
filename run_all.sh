@@ -63,6 +63,25 @@ python /workspace/MCQ/extract_mcq.py
 
 echo ""
 echo "============================================"
-echo "DONE! Output files are in /workspace/output/"
+echo "VERIFYING EXTRACTION QUALITY..."
+echo "============================================"
+python /workspace/MCQ/verify_extraction.py
+
+echo ""
+echo "============================================"
+echo "OUTPUT FILES:"
 echo "============================================"
 ls -la /workspace/output/
+
+echo ""
+echo "============================================"
+echo "NEXT STEPS:"
+echo "============================================"
+echo "If extraction looks good, push to GitHub:"
+echo ""
+echo "  cd /workspace/MCQ && git add . && git commit -m 'Add extracted data' && git push"
+echo ""
+echo "If there are issues, you can:"
+echo "  1. Check samples: python verify_extraction.py RNAV"
+echo "  2. Re-run extraction: python extract_mcq.py"
+echo "============================================"
