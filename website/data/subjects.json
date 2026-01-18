@@ -1,22 +1,22 @@
 {
   "COMS": {
     "name": "COMS",
-    "questionCount": 530,
+    "questionCount": 230,
     "file": "COMS.json"
   },
   "HPL": {
     "name": "HPL",
-    "questionCount": 428,
+    "questionCount": 275,
     "file": "HPL.json"
   },
   "OPS": {
     "name": "OPS",
-    "questionCount": 544,
+    "questionCount": 225,
     "file": "OPS.json"
   },
   "RNAV": {
     "name": "RNAV",
-    "questionCount": 387,
+    "questionCount": 285,
     "file": "RNAV.json"
   }
 }
