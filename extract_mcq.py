@@ -38,7 +38,7 @@ SUBJECT_NAMES = {
 DPI = 200  # Higher = better quality but slower
 BATCH_SIZE = 50  # Pages per batch (increase for more RAM)
 NUM_WORKERS = 8  # Parallel workers for OCR
-SIMILARITY_THRESHOLD = 0.85  # For duplicate detection
+SIMILARITY_THRESHOLD = 0.92  # For duplicate detection (higher = less aggressive)
 
 # ============================================================
 
@@ -224,12 +224,22 @@ def process_page(args):
 def get_signature(question):
     """Create signature for duplicate detection."""
     text = question.lower()
+    # Remove common OCR noise from beginning
+    noise_prefixes = ['cae', 'crew', 'training', 'sigma', 'web', 'https', 'http', 'www']
+    for prefix in noise_prefixes:
+        if text.startswith(prefix):
+            text = text[len(prefix):].strip()
     text = re.sub(r'[^\w\s]', '', text)
-    return ' '.join(text.split())[:100]
+    text = ' '.join(text.split())
+    # Use more of the question for better uniqueness (200 chars instead of 100)
+    return text[:200]
 
 
 def similarity(s1, s2):
     """Calculate string similarity."""
+    # If strings are very short, require exact match
+    if len(s1) < 30 or len(s2) < 30:
+        return 1.0 if s1 == s2 else 0.0
     return SequenceMatcher(None, s1.lower(), s2.lower()).ratio()
 
 
