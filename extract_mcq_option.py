@@ -28,10 +28,11 @@ import argparse
 import json
 import os
 import re
+import time
 from dataclasses import dataclass
 from difflib import SequenceMatcher
 from pathlib import Path
-from typing import Iterable, List, Optional, Tuple
+from typing import Dict, Iterable, List, Optional, Tuple
 
 import numpy as np
 import cv2
@@ -54,9 +55,13 @@ DEFAULT_WEBSITE_DATA_DIR = REPO_ROOT / "website" / "data"
 
 # OCR / processing
 DPI = 250
-BATCH_SIZE = 30
+BATCH_SIZE = 1
 NUM_WORKERS = 8
 SIMILARITY_THRESHOLD = 0.88
+
+# Filtering (drop bad OCR pages)
+MIN_OPTIONS = 3
+MIN_QUESTION_LENGTH = 20
 
 # Tesseract
 TESSERACT_CONFIG = "--oem 3 --psm 6 -l eng"
@@ -67,6 +72,17 @@ class Mcq:
     question: str
     options: List[str]
     correct: int
+
+
+def _atomic_write_text(path: Path, content: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(content, encoding="utf-8")
+    tmp.replace(path)
+
+
+def _now_ts() -> str:
+    return time.strftime("%Y-%m-%d %H:%M:%S")
 
 
 def list_pdfs(subject_dir: Path) -> List[Path]:
@@ -232,13 +248,46 @@ def parse_mcq(raw_text: str, correct_idx: int) -> Optional[Mcq]:
             unique_options.append(opt)
     options = unique_options
 
-    if len(question) < 15 or len(options) < 2:
+    if len(question) < MIN_QUESTION_LENGTH or len(options) < MIN_OPTIONS:
         return None
 
     if correct_idx < 0 or correct_idx >= len(options):
         correct_idx = 0
 
     return Mcq(question=question, options=options, correct=correct_idx)
+
+
+def _garbage_ratio(text: str) -> float:
+    if not text:
+        return 1.0
+    total = len(text)
+    bad = sum(1 for ch in text if not (ch.isalnum() or ch.isspace() or ch in ".,:;!?()'\"-"))
+    return bad / max(total, 1)
+
+
+def is_mcq_clean(mcq: Mcq) -> bool:
+    """Heuristic filter to skip pages where OCR produced garbage.
+
+    Keeps only MCQs with:
+    - reasonable character mix (low garbage ratio)
+    - non-trivial question
+    - options that look like sentences/phrases (not mostly symbols)
+    """
+    if len(mcq.question.strip()) < MIN_QUESTION_LENGTH:
+        return False
+    if len(mcq.options) < MIN_OPTIONS:
+        return False
+
+    if _garbage_ratio(mcq.question) > 0.20:
+        return False
+
+    for opt in mcq.options:
+        if len(opt.strip()) < 3:
+            return False
+        if _garbage_ratio(opt) > 0.25:
+            return False
+
+    return True
 
 
 # =========================
@@ -413,59 +462,171 @@ def _get_page_count(pdf_path: Path) -> int:
     return len(reader.pages)
 
 
+def _checkpoint_path(website_data_dir: Path, pdf_stem: str) -> Path:
+    return website_data_dir / ".checkpoints" / f"{pdf_stem}.checkpoint.json"
+
+
+def load_checkpoint(website_data_dir: Path, pdf_stem: str) -> Tuple[Dict[int, Mcq], List[str]]:
+    """Load checkpoint if present.
+
+    Returns:
+      - mcqs_by_page: mapping page_number -> Mcq
+      - seen_sigs: list of signatures (for dedup)
+    """
+    ckpt = _checkpoint_path(website_data_dir, pdf_stem)
+    if not ckpt.exists():
+        return {}, []
+
+    data = json.loads(ckpt.read_text(encoding="utf-8"))
+    mcqs_by_page: Dict[int, Mcq] = {}
+    for item in data.get("mcqs", []):
+        page = int(item["page"])  # stored in checkpoint
+        mcqs_by_page[page] = Mcq(
+            question=item["question"],
+            options=list(item["options"]),
+            correct=int(item["correct"]),
+        )
+
+    seen_sigs = list(data.get("seen_signatures", []))
+    return mcqs_by_page, seen_sigs
+
+
+def save_checkpoint(
+    website_data_dir: Path,
+    pdf_path: Path,
+    processed_pages: List[int],
+    mcqs_by_page: Dict[int, Mcq],
+    seen_sigs: List[str],
+    stats: Dict[str, int],
+) -> None:
+    ckpt_path = _checkpoint_path(website_data_dir, pdf_path.stem)
+    payload = {
+        "source_pdf": str(pdf_path),
+        "pdf_name": pdf_path.name,
+        "updated_at": _now_ts(),
+        "processed_pages": sorted(processed_pages),
+        "stats": stats,
+        "seen_signatures": seen_sigs,
+        "mcqs": [
+            {
+                "page": page,
+                "question": mcq.question,
+                "options": mcq.options,
+                "correct": mcq.correct,
+            }
+            for page, mcq in sorted(mcqs_by_page.items(), key=lambda t: t[0])
+        ],
+    }
+    _atomic_write_text(ckpt_path, json.dumps(payload, ensure_ascii=False, indent=2))
+
+
 def extract_mcqs_from_pdf(
     pdf_path: Path,
     *,
     poppler_path: Optional[str],
     dpi: int,
-    batch_size: int,
     num_workers: int,
     dedup_threshold: float,
+    website_data_dir: Path,
+    resume: bool,
+    checkpoint_every: int,
 ) -> List[Mcq]:
-    from concurrent.futures import ThreadPoolExecutor, as_completed
-
     total_pages = _get_page_count(pdf_path)
     print(f"\nProcessing: {pdf_path.name}")
     print(f"  Total pages: {total_pages}")
 
-    mcqs: List[Mcq] = []
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    stats: Dict[str, int] = {
+        "success": 0,
+        "duplicate": 0,
+        "parse_failed": 0,
+        "garbage": 0,
+        "error": 0,
+    }
+
+    mcqs_by_page: Dict[int, Mcq] = {}
     seen_sigs: List[str] = []
+    processed_pages: List[int] = []
 
-    for start in range(1, total_pages + 1, batch_size):
-        end = min(start + batch_size - 1, total_pages)
-        pages = convert_from_path(
-            str(pdf_path),
-            dpi=dpi,
-            first_page=start,
-            last_page=end,
-            poppler_path=poppler_path,
-        )
+    if resume:
+        mcqs_by_page, seen_sigs = load_checkpoint(website_data_dir, pdf_path.stem)
+        processed_pages = sorted(mcqs_by_page.keys())
+        if processed_pages:
+            print(f"  Resuming from checkpoint: already have {len(processed_pages)} processed pages")
 
-        with ThreadPoolExecutor(max_workers=num_workers) as ex:
-            futures = {}
-            for i, page_img in enumerate(pages):
-                page_num = start + i
-                futures[ex.submit(_process_page, page_img)] = page_num
+    processed_set = set(processed_pages)
 
-            for fut in as_completed(futures):
-                page_num = futures[fut]
-                mcq = fut.result()
-                if mcq is None:
-                    continue
+    def worker(page_num: int) -> Tuple[int, Optional[Mcq], str]:
+        try:
+            images = convert_from_path(
+                str(pdf_path),
+                dpi=dpi,
+                first_page=page_num,
+                last_page=page_num,
+                poppler_path=poppler_path,
+                thread_count=1,
+            )
+            if not images:
+                return page_num, None, "error"
+            page_img = images[0]
+            mcq = _process_page(page_img)
+            return page_num, mcq, "ok"
+        except Exception:
+            return page_num, None, "error"
 
-                sig = get_signature(mcq.question)
-                if is_duplicate(sig, seen_sigs, dedup_threshold):
-                    continue
+    pages_to_do = [p for p in range(1, total_pages + 1) if p not in processed_set]
+    print(f"  Workers: {num_workers}")
+    print(f"  Pages remaining: {len(pages_to_do)}")
 
-                seen_sigs.append(sig)
-                mcqs.append(mcq)
+    completed_since_ckpt = 0
+    with ThreadPoolExecutor(max_workers=num_workers) as ex:
+        futures = {ex.submit(worker, p): p for p in pages_to_do}
 
-        # Help GC in long runs
-        del pages
+        for fut in as_completed(futures):
+            page_num = futures[fut]
+            page, mcq, status = fut.result()
 
-        print(f"  Pages {start}-{end}: total MCQs so far = {len(mcqs)}")
+            processed_set.add(page)
+            processed_pages.append(page)
 
-    return mcqs
+            if status != "ok":
+                stats["error"] += 1
+            elif mcq is None:
+                stats["parse_failed"] += 1
+            else:
+                if not is_mcq_clean(mcq):
+                    stats["garbage"] += 1
+                else:
+                    sig = get_signature(mcq.question)
+                    if is_duplicate(sig, seen_sigs, dedup_threshold):
+                        stats["duplicate"] += 1
+                    else:
+                        seen_sigs.append(sig)
+                        mcqs_by_page[page] = mcq
+                        stats["success"] += 1
+
+            completed_since_ckpt += 1
+            if checkpoint_every > 0 and completed_since_ckpt >= checkpoint_every:
+                save_checkpoint(
+                    website_data_dir,
+                    pdf_path,
+                    processed_pages,
+                    mcqs_by_page,
+                    seen_sigs,
+                    stats,
+                )
+                completed_since_ckpt = 0
+                print(
+                    f"  Checkpoint saved: processed={len(processed_set)}/{total_pages} "
+                    f"success={stats['success']} dup={stats['duplicate']} garbage={stats['garbage']}"
+                )
+
+    # Final checkpoint write
+    save_checkpoint(website_data_dir, pdf_path, processed_pages, mcqs_by_page, seen_sigs, stats)
+
+    # Return MCQs ordered by page number
+    return [mcq for _page, mcq in sorted(mcqs_by_page.items(), key=lambda t: t[0])]
 
 
 def _process_page(page_img: Image.Image) -> Optional[Mcq]:
@@ -489,7 +650,7 @@ def write_website_json(mcqs: List[Mcq], out_path: Path) -> None:
             }
         )
 
-    out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    _atomic_write_text(out_path, json.dumps(payload, ensure_ascii=False, indent=2))
 
 
 def main() -> None:
@@ -503,9 +664,26 @@ def main() -> None:
     group.add_argument("--pdf-index", type=int, help="Select PDF by index from Subject folder (1-based)")
 
     parser.add_argument("--dpi", type=int, default=DPI)
-    parser.add_argument("--batch-size", type=int, default=BATCH_SIZE)
     parser.add_argument("--workers", type=int, default=NUM_WORKERS)
     parser.add_argument("--dedup-threshold", type=float, default=SIMILARITY_THRESHOLD)
+
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        default=True,
+        help="Resume from checkpoint if present (default: enabled)",
+    )
+    parser.add_argument(
+        "--no-resume",
+        action="store_true",
+        help="Ignore checkpoint and start fresh",
+    )
+    parser.add_argument(
+        "--checkpoint-every",
+        type=int,
+        default=10,
+        help="Write checkpoint every N completed pages (default: 10). Use 1 for maximum safety.",
+    )
 
     parser.add_argument(
         "--poppler-path",
@@ -539,13 +717,16 @@ def main() -> None:
     if not pdf_path.exists():
         raise SystemExit(f"PDF not found: {pdf_path}")
 
+    resume = bool(args.resume) and not bool(args.no_resume)
     mcqs = extract_mcqs_from_pdf(
         pdf_path,
         poppler_path=args.poppler_path,
         dpi=args.dpi,
-        batch_size=args.batch_size,
         num_workers=args.workers,
         dedup_threshold=args.dedup_threshold,
+        website_data_dir=website_data_dir,
+        resume=resume,
+        checkpoint_every=max(1, int(args.checkpoint_every)),
     )
 
     out_path = website_data_dir / f"{pdf_path.stem}.json"
