@@ -119,10 +119,11 @@ def prompt_pdf_index(max_index: int) -> int:
 
 
 # =========================
-# OCR + parsing
+# OCR + parsing (chunk-based)
 # =========================
 
 def preprocess_image_for_ocr(pil_image: Image.Image) -> Image.Image:
+    """Basic preprocessing: grayscale, resize, denoise, binarize."""
     img = np.array(pil_image)
 
     if len(img.shape) == 3:
@@ -147,144 +148,272 @@ def preprocess_image_for_ocr(pil_image: Image.Image) -> Image.Image:
     return Image.fromarray(binary)
 
 
-def extract_text_with_confidence(page_image: Image.Image) -> Tuple[str, float]:
+def extract_full_text(page_image: Image.Image) -> str:
+    """Extract ALL text from page as a single chunk."""
     processed = preprocess_image_for_ocr(page_image)
-
-    data = pytesseract.image_to_data(
-        processed,
-        lang="eng",
-        config=TESSERACT_CONFIG,
-        output_type=pytesseract.Output.DICT,
-    )
-
-    confidences = [int(c) for c, t in zip(data["conf"], data["text"]) if c != "-1" and str(t).strip()]
-    avg_confidence = (sum(confidences) / len(confidences)) if confidences else 0.0
-
     text = pytesseract.image_to_string(processed, lang="eng", config=TESSERACT_CONFIG)
-    return text, avg_confidence
+    return text
 
 
-def clean_text(text: str) -> str:
-    patterns = [
+def is_human_readable(text: str) -> bool:
+    """Check if text is mostly human-readable (not garbage OCR output)."""
+    if not text or len(text.strip()) < 50:
+        return False
+
+    # Count alphanumeric vs garbage characters
+    alnum = sum(1 for c in text if c.isalnum())
+    spaces = sum(1 for c in text if c.isspace())
+    total = len(text)
+
+    # At least 60% should be letters/numbers/spaces
+    readable_ratio = (alnum + spaces) / max(total, 1)
+    if readable_ratio < 0.60:
+        return False
+
+    # Should have some words (at least 5 words with 3+ letters)
+    words = re.findall(r"[a-zA-Z]{3,}", text)
+    if len(words) < 5:
+        return False
+
+    return True
+
+
+def clean_chunk(text: str) -> str:
+    """Remove known noise patterns from OCR text chunk."""
+    # Remove timestamps, dates, page refs, URLs, etc.
+    noise_patterns = [
         r"\d{1,2}:\d{2}\s*(AM|PM|am|pm)?",
         r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d+",
-        r"PT\d*\s*\d+\.\d+",
+        r"PT\d*\s*\d+[\.\d]*",
         r"\d{3}\s+PT\d?",
-        r"©.*?(Con|Tota|@|&)",
+        r"©.*",
         r"<>\s*Results",
-        r"Results",
-        r"Multiple Choice",
-        r"^\s*Question\s+\d+\s*$",
-        r"Pevesys",
+        r"\bResults\b",
+        r"\bMultiple Choice\b",
+        r"Question\s+\d+",
+        r"\bPevesys\b",
         r"Page\s+\d+",
         r"www\.\S+",
-        r"http\S+",
+        r"https?://\S+",
+        r"[®©™]",
     ]
 
-    for pattern in patterns:
-        text = re.sub(pattern, "", text, flags=re.IGNORECASE | re.MULTILINE)
+    for pattern in noise_patterns:
+        text = re.sub(pattern, " ", text, flags=re.IGNORECASE)
 
-    text = re.sub(r"\n\s*\n", "\n", text)
+    # Collapse whitespace
     text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n\s*\n+", "\n", text)
     return text.strip()
 
 
-def parse_mcq(raw_text: str, correct_idx: int) -> Optional[Mcq]:
-    text = clean_text(raw_text)
-    lines = [l.strip() for l in text.split("\n") if l.strip() and len(l.strip()) > 2]
+def extract_question_from_chunk(chunk: str) -> Optional[str]:
+    """
+    Find the question text in a chunk.
+    Questions typically end with '?' or '...' or ':'.
+    """
+    # Try to find question ending with ? or ...
+    # Look for the longest sentence ending with ? or ...
+    patterns = [
+        r"([A-Z][^?]*\?)",  # Sentence ending with ?
+        r"([A-Z][^\.]*\.{2,})",  # Sentence ending with ...
+        r"([A-Z][^:]*:(?=\s*[a-dA-D][\.\)]))",  # Sentence ending with : before options
+    ]
 
-    filtered: List[str] = []
-    for line in lines:
-        if any(x in line.lower() for x in ["results", "multiple choice", "pevesys", "page "]):
-            continue
-        if re.match(r"^[\d\s\.\-\(\)]+$", line):
-            continue
-        if len(line) < 4:
-            continue
-        filtered.append(line)
+    for pattern in patterns:
+        matches = re.findall(pattern, chunk, re.DOTALL)
+        if matches:
+            # Take the longest match as the question
+            question = max(matches, key=len)
+            question = " ".join(question.split())
+            if len(question) >= MIN_QUESTION_LENGTH:
+                return question
 
-    if len(filtered) < 3:
-        return None
+    # Fallback: take text before first option marker (if any)
+    opt_match = re.search(r"[aA][\.\)\:]", chunk)
+    if opt_match:
+        question = chunk[:opt_match.start()].strip()
+        question = " ".join(question.split())
+        # Remove trailing incomplete words
+        question = re.sub(r"\s+\w{1,2}$", "", question)
+        if len(question) >= MIN_QUESTION_LENGTH:
+            return question
 
-    question = ""
+    # Fallback for no markers: question is text before first newline block
+    # (options in boxes usually appear as separate lines)
+    lines = [l.strip() for l in chunk.split("\n") if l.strip()]
+    if len(lines) >= 2:
+        # First line(s) that look like a question
+        q_lines = []
+        for line in lines:
+            q_lines.append(line)
+            combined = " ".join(q_lines)
+            if combined.endswith("?") or combined.endswith("...") or combined.endswith(":"):
+                return " ".join(combined.split())
+        # If no clear ending, take first 1-2 lines as question
+        if len(lines) >= 4:
+            question = " ".join(lines[:2])
+            question = " ".join(question.split())
+            if len(question) >= MIN_QUESTION_LENGTH:
+                return question
+
+    return None
+
+
+def extract_options_from_chunk(chunk: str, question: Optional[str] = None) -> List[str]:
+    """
+    Extract options from chunk.
+    First tries A/B/C/D markers, then falls back to line-based extraction
+    (for PDFs where options are in boxes without letter labels).
+    """
     options: List[str] = []
-    question_found = False
-    option_pattern = re.compile(r"^[aAbBcCdD][\.\)\:\s]+(.+)", re.IGNORECASE)
 
-    for line in filtered:
-        opt_match = option_pattern.match(line)
-        if opt_match:
-            question_found = True
-            opt_text = opt_match.group(1).strip()
-            if opt_text and len(opt_text) > 2:
-                options.append(opt_text)
-        elif not question_found:
-            if re.search(r"question\s*\d+", line, re.IGNORECASE):
-                match = re.search(r"question\s*\d+[\.\:\)\s]*(.+)", line, re.IGNORECASE)
-                if match and match.group(1).strip():
-                    question += " " + match.group(1).strip()
-                continue
-            question += " " + line
+    # Method 1: Try A/B/C/D markers
+    markers = list(re.finditer(r"[aAbBcCdD][\.\)\:]", chunk))
 
-    if len(options) < 2:
-        options = []
-        for i, line in enumerate(filtered):
-            if i >= 2:
-                opt = re.sub(r"^[a-d][\.\)\:\s]+", "", line, flags=re.IGNORECASE)
-                if opt and len(opt) > 2:
-                    options.append(opt)
+    if len(markers) >= 2:
+        for i, marker in enumerate(markers):
+            start = marker.end()
+            if i + 1 < len(markers):
+                end = markers[i + 1].start()
             else:
-                if not question:
-                    question = line
-                else:
-                    question += " " + line
+                end = len(chunk)
 
-    question = " ".join(question.split()).strip()
-    options = [" ".join(o.split()).strip() for o in options[:4] if len(o.strip()) > 2]
+            opt_text = chunk[start:end].strip()
+            opt_text = " ".join(opt_text.split())
+            opt_text = re.sub(r"\s*[®©™\[\]]+.*$", "", opt_text)
 
-    unique_options: List[str] = []
-    for opt in options:
-        if opt not in unique_options:
-            unique_options.append(opt)
-    options = unique_options
+            if opt_text and len(opt_text) >= 3:
+                options.append(opt_text)
 
-    if len(question) < MIN_QUESTION_LENGTH or len(options) < MIN_OPTIONS:
+        if len(options) >= 2:
+            return options[:4]
+
+    # Method 2: Line-based extraction (options in boxes without A/B/C/D)
+    # Remove the question from chunk first
+    remaining = chunk
+    if question:
+        # Find where question ends in the chunk
+        q_clean = " ".join(question.split())
+        q_start = chunk.find(q_clean[:30]) if len(q_clean) >= 30 else chunk.find(q_clean[:15])
+        if q_start >= 0:
+            # Find end of question (look for ? or ... or :)
+            q_end_markers = ["?", "...", ":"]
+            q_end = q_start
+            for marker in q_end_markers:
+                pos = chunk.find(marker, q_start)
+                if pos > q_end:
+                    q_end = pos + len(marker)
+            if q_end > q_start:
+                remaining = chunk[q_end:].strip()
+
+    # Split remaining text into lines - each line could be an option
+    lines = [l.strip() for l in remaining.split("\n") if l.strip()]
+
+    # Filter out noise lines
+    option_candidates: List[str] = []
+    for line in lines:
+        line = " ".join(line.split())
+        # Skip very short lines
+        if len(line) < 3:
+            continue
+        # Skip lines that look like headers/noise
+        if re.match(r"^(Question|Page|Results|Multiple|Choice|\d+[\.\)]?\s*$)", line, re.IGNORECASE):
+            continue
+        # Skip lines that are mostly numbers/symbols
+        alnum = sum(1 for c in line if c.isalpha())
+        if alnum < 2:
+            continue
+        option_candidates.append(line)
+
+    # Take first 4 option-like lines
+    if len(option_candidates) >= 2:
+        return option_candidates[:4]
+
+    return options[:4]
+
+
+def is_option_clean(opt: str) -> bool:
+    """Check if an option looks like valid text."""
+    if len(opt) < 3:
+        return False
+
+    # Count readable chars
+    alnum = sum(1 for c in opt if c.isalnum())
+    if alnum < 2:
+        return False
+
+    # Check garbage ratio
+    total = len(opt)
+    bad = sum(1 for c in opt if not (c.isalnum() or c.isspace() or c in ".,:;!?()'\"-"))
+    garbage_ratio = bad / max(total, 1)
+
+    return garbage_ratio < 0.30
+
+
+def parse_mcq_from_chunk(raw_text: str, correct_idx: int) -> Optional[Mcq]:
+    """
+    New chunk-based parsing:
+    1. Clean the entire text chunk
+    2. Extract question
+    3. Extract options
+    4. Validate everything is human-readable
+    """
+    # Step 1: Check if page is readable at all
+    if not is_human_readable(raw_text):
         return None
 
+    # Step 2: Clean the chunk
+    chunk = clean_chunk(raw_text)
+
+    if len(chunk) < 50:
+        return None
+
+    # Step 3: Extract question
+    question = extract_question_from_chunk(chunk)
+    if not question or len(question) < MIN_QUESTION_LENGTH:
+        return None
+
+    # Step 4: Extract options (pass question so we can find text after it)
+    options = extract_options_from_chunk(chunk, question)
+
+    # Filter out bad options
+    options = [opt for opt in options if is_option_clean(opt)]
+
+    if len(options) < MIN_OPTIONS:
+        return None
+
+    # Step 5: Final validation
+    # Check question is readable
+    q_alnum = sum(1 for c in question if c.isalnum())
+    if q_alnum < 10:
+        return None
+
+    # Validate correct_idx
     if correct_idx < 0 or correct_idx >= len(options):
         correct_idx = 0
 
     return Mcq(question=question, options=options, correct=correct_idx)
 
 
-def _garbage_ratio(text: str) -> float:
-    if not text:
-        return 1.0
-    total = len(text)
-    bad = sum(1 for ch in text if not (ch.isalnum() or ch.isspace() or ch in ".,:;!?()'\"-"))
-    return bad / max(total, 1)
-
-
 def is_mcq_clean(mcq: Mcq) -> bool:
-    """Heuristic filter to skip pages where OCR produced garbage.
-
-    Keeps only MCQs with:
-    - reasonable character mix (low garbage ratio)
-    - non-trivial question
-    - options that look like sentences/phrases (not mostly symbols)
-    """
+    """Final quality check on extracted MCQ."""
     if len(mcq.question.strip()) < MIN_QUESTION_LENGTH:
         return False
     if len(mcq.options) < MIN_OPTIONS:
         return False
 
-    if _garbage_ratio(mcq.question) > 0.20:
+    # Check question has actual words
+    words = re.findall(r"[a-zA-Z]{2,}", mcq.question)
+    if len(words) < 3:
         return False
 
+    # Check each option
     for opt in mcq.options:
         if len(opt.strip()) < 3:
             return False
-        if _garbage_ratio(opt) > 0.25:
+        opt_words = re.findall(r"[a-zA-Z]{2,}", opt)
+        if len(opt_words) < 1:
             return False
 
     return True
@@ -630,9 +759,16 @@ def extract_mcqs_from_pdf(
 
 
 def _process_page(page_img: Image.Image) -> Optional[Mcq]:
-    text, _confidence = extract_text_with_confidence(page_img)
+    """Process a single page using chunk-based extraction."""
+    # Step 1: Get ALL text from page as one chunk
+    raw_text = extract_full_text(page_img)
+
+    # Step 2: Detect correct answer (green checkmark)
     correct_idx = detect_correct_option_by_right_icon(page_img)
-    mcq = parse_mcq(text, correct_idx)
+
+    # Step 3: Parse MCQ from the text chunk
+    mcq = parse_mcq_from_chunk(raw_text, correct_idx)
+
     return mcq
 
 
