@@ -39,6 +39,10 @@ import pytesseract
 from pdf2image import convert_from_path
 from PIL import Image
 
+# Allow very large images (disable Pillow decompression bomb protection).
+# Only do this when you trust the PDFs you're processing.
+Image.MAX_IMAGE_PIXELS = None
+
 
 # =========================
 # Defaults (repo-relative)
